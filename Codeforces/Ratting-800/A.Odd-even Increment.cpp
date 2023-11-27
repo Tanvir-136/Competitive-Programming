@@ -26,8 +26,6 @@ void solve(){
     }
     if(flag ==0) cout << "NO\n";
     else cout << "YES\n";
-    
-    
 }
 int main(){
     FAST;
