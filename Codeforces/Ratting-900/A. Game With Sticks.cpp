@@ -1,0 +1,34 @@
+// A. Games With Sticks (https://codeforces.com/contest/451/problem/A)
+// Author: Md.Tanvir Islam
+// Date:05-12-23
+
+//---------------------------------------------------------------//
+#include<iostream>
+#include<bits/stdc++.h>
+#define FAST_IO ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
+#define ll long long
+using namespace std;
+//---------------------------------------------------------------//
+void solve()
+{
+    int n,m;
+    cin >> n>>m;
+    if(n>m) swap(n,m);
+    
+    if(n%2!=0){
+        cout << "Akshat\n";
+    }
+    else{
+        cout << "Malvika\n";
+    }
+}
+int main(){
+    FAST_IO;
+    //Start Here
+    int t=1;
+    //cin >> t;
+    while (t--){
+        solve();
+    }
+    return 0;
+}
