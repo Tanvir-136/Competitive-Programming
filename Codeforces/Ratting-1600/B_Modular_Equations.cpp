@@ -1,4 +1,4 @@
-// B. Modular Equations
+// B. Modular Equations (https://codeforces.com/contest/495/problem/B)
 // Author: Md.Tanvir Islam
 // Date:22-12-23
 
