@@ -1,4 +1,4 @@
-// B. Badges
+// B. Badges (https://codeforces.com/contest/1214/problem/B)
 // Author: Md.Tanvir Islam
 // Date:04-01-24
 //---------------------------------------------------------------//
