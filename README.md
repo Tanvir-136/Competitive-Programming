@@ -17,7 +17,7 @@ Feel free to explore the code and solutions provided in this repository. You can
 
 I participate in competitive programming challenges on various online platforms, including:
 
-- [Codeforces](https://codeforces.com/profile/tanvir_islam)
+- [Codeforces](#) <!-- Hidden link: [Codeforces](https://codeforces.com/profile/tanvir_islam) -->
 
 ## Resources
 
@@ -32,7 +32,7 @@ Here are some resources that I find useful for improving my competitive programm
 You can find me on various platforms:
 
 - [GitHub](https://github.com/Tanvir-136)
-- [Codeforces](https://codeforces.com/profile/tanvir_islam)
+- [Codeforces](#) <!-- Hidden link: [Codeforces](https://codeforces.com/profile/tanvir_islam) -->
 - [LinkedIn](https://www.linkedin.com/in/tanvir-islam-35aa671b2)
 
 Feel free to connect, share ideas, or discuss anything related to competitive programming!
