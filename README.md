@@ -1,26 +1,26 @@
-# <font color="blue">Competitive-Programming</font>
+# Competitive-Programming
 
-Welcome to my <font color="green">`Competitive Programming`</font> journey! In this repository, I share my daily <font color="green">`code`</font> submissions and solutions to various competitive programming problems from different online platforms.
+Welcome to my `Competitive Programming` journey! In this repository, I share my daily `code` submissions and solutions to various competitive programming problems from different online platforms.
 
-## <font color="orange">About</font>
+## About
 
-Competitive programming is a mind sport that involves solving well-defined problems using programming skills. This repository serves as a record of my progress, challenges, and solutions encountered during my <font color="green">`competitive programming`</font> journey.
+Competitive programming is a mind sport that involves solving well-defined problems using programming skills. This repository serves as a record of my progress, challenges, and solutions encountered during my `competitive programming` journey.
 
-## <font color="purple">Folder Structure</font>
+## Folder Structure
 
-- **Ratting wise**: Contains folders organized by <font color="green">`Ratting`</font>, each containing the code submissions for the challenges solved on that day.
+- **Ratting wise**: Contains folders organized by `Ratting`, each containing the code submissions for the challenges solved on that day.
 
-## <font color="red">Usage</font>
+## Usage
 
 Feel free to explore the code and solutions provided in this repository. You can browse through the daily challenges or search for specific problems by category or platform. If you find any errors, have suggestions, or want to contribute, please feel free to open an issue or submit a pull request. Your contributions are highly appreciated!
 
-## <font color="teal">Platforms</font>
+## Platforms
 
 I participate in competitive programming challenges on various online platforms, including:
 
 - [Codeforces](https://codeforces.com/profile/tanvir_islam)
 
-## <font color="brown">Resources</font>
+## Resources
 
 Here are some resources that I find useful for improving my competitive programming skills:
 
@@ -28,7 +28,7 @@ Here are some resources that I find useful for improving my competitive programm
 - [GeeksforGeeks](https://www.geeksforgeeks.org/): Provides explanations and implementations of various algorithms and data structures.
 - [Codeforces](https://codeforces.com/blog/entry/23054): Educational blogs and problem sets for improving competitive programming skills.
 
-## <font color="navy">Connect with Me</font>
+## Connect with Me
 
 You can find me on various platforms:
 
@@ -38,4 +38,4 @@ You can find me on various platforms:
 
 Feel free to connect, share ideas, or discuss anything related to competitive programming!
 
-**<font color="green">Happy Coding!</font>** 🚀
+**Happy Coding!** 🚀
