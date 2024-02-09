@@ -1,6 +1,6 @@
-# Competitive Programming Repository
+# Competitive-Programming
 
-Welcome to my Competitive Programming journey! In this repository, I share my daily code submissions and solutions to various competitive programming problems from different online platforms.
+Welcome to my `Competitive Programming` journey! In this repository, I share my daily code submissions and solutions to various competitive programming problems from different online platforms.
 
 ## About
 
@@ -8,12 +8,9 @@ Competitive programming is a mind sport that involves solving well-defined probl
 
 ## Folder Structure
 
-- **Daily Challenges**: Contains folders organized by date, each containing the code submissions for the challenges solved on that day.
-- **Problem Solutions**: Contains folders organized by problem category or platform, each containing solutions to specific problems.
-- **Algorithms**: Contains implementations of various algorithms and data structures commonly used in competitive programming.
-  
+- **Ratting wise**: Contains folders organized by `Ratting`, each containing the code submissions for the challenges solved on that day.
+- 
 ## Usage
-
 Feel free to explore the code and solutions provided in this repository. You can browse through the daily challenges or search for specific problems by category or platform.
 If you find any errors, have suggestions, or want to contribute, please feel free to open an issue or submit a pull request. Your contributions are highly appreciated!
 
