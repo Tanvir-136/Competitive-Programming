@@ -6,19 +6,19 @@ Welcome to my `Competitive Programming` journey! In this repository, I share my 
 
 Competitive programming is a mind sport that involves solving well-defined problems using programming skills. This repository serves as a record of my progress, challenges, and solutions encountered during my `competitive programming` journey.
 
-## Folder Structure
+<mark>## Folder Structure</mark>
 
 - **Ratting wise**: Contains folders organized by `Ratting`, each containing the code submissions for the challenges solved on that day.
 
-- [Ratting-800](Codeforces/Ratting-800)
-- [Ratting-900](Codeforces/Ratting-900)
-- [Ratting-1000](Codeforces/Ratting-1000)
-- [Ratting-1100](Codeforces/Ratting-1100)
-- [Ratting-1200](Codeforces/Ratting-1200)
-- [Ratting-1300](Codeforces/Ratting-1300)
-- [Ratting-1400](Codeforces/Ratting-1400)
-- [Ratting-1500](Codeforces/Ratting-1500)
-- [Ratting-1600](Codeforces/Ratting-1600)
+- ###[Ratting-800](Codeforces/Ratting-800)
+- ###[Ratting-900](Codeforces/Ratting-900)
+- ###[Ratting-1000](Codeforces/Ratting-1000)
+- ###[Ratting-1100](Codeforces/Ratting-1100)
+- ###[Ratting-1200](Codeforces/Ratting-1200)
+- ###[Ratting-1300](Codeforces/Ratting-1300)
+- ###[Ratting-1400](Codeforces/Ratting-1400)
+- ###[Ratting-1500](Codeforces/Ratting-1500)
+- ###[Ratting-1600](Codeforces/Ratting-1600)
 
 ## Usage
 
