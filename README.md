@@ -10,6 +10,16 @@ Competitive programming is a mind sport that involves solving well-defined probl
 
 - **Ratting wise**: Contains folders organized by `Ratting`, each containing the code submissions for the challenges solved on that day.
 
+- [Ratting-800](Codeforces/Ratting-800)
+- [Ratting-900](Codeforces/Ratting-900)
+- [Ratting-1000](Codeforces/Ratting-1000)
+- [Ratting-1100](Codeforces/Ratting-1100)
+- [Ratting-1200](Codeforces/Ratting-1200)
+- [Ratting-1300](Codeforces/Ratting-1300)
+- [Ratting-1400](Codeforces/Ratting-1400)
+- [Ratting-1500](Codeforces/Ratting-1500)
+- [Ratting-1600](Codeforces/Ratting-1600)
+
 ## Usage
 
 Feel free to explore the code and solutions provided in this repository. You can browse through the daily challenges or search for specific problems by category or platform. If you find any errors, have suggestions, or want to contribute, please feel free to open an issue or submit a pull request. Your contributions are highly appreciated!
