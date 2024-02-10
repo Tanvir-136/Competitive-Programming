@@ -10,7 +10,7 @@ Competitive programming is a mind sport that involves solving well-defined probl
 
 - **Ratting wise**: Contains folders organized by `Ratting`, each containing the code submissions for the challenges solved on that day.
 
--### [Ratting-800](Codeforces/Ratting-800)
+- [Ratting-800](Codeforces/Ratting-800)
 - [Ratting-900](Codeforces/Ratting-900)
 - [Ratting-1000](Codeforces/Ratting-1000)
 - [Ratting-1100](Codeforces/Ratting-1100)
