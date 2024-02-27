@@ -1,6 +1,6 @@
-// C. Sasha and the Casino
+// A. Everyone Loves to Sleep
 // Author: Md.Tanvir Islam
-// Date:16-02-24
+// Date:21-02-24
 //---------------------------------------------------------------//
 #include <bits/stdc++.h>
 #define FAST_IO ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
@@ -12,23 +12,26 @@ using namespace std;
 //---------------------------------------------------------------//
 void solve()
 {
-    int k, x, a;
-    cin >> k >> x >> a;
-    ll sum = 0;
-    for(int i=0;i<=x;i++){
-        int y = sum / (k - 1) + 1;
-        sum += y;
-        if(sum>a){
-            no;
-            return;
-        }
+    int n, h, m;
+    cin >> n >> h >> m;
+    int x = h * 60 + m;
+    int ans = INT_MAX;
+    for (int i = 0; i < n; i++) {
+      int hh, mm;
+      cin >> hh >> mm;
+      int y = hh * 60 + mm;
+      int diff = y - x;
+      if (diff < 0) {
+        diff += 1440;
+      }
+      ans = min(ans, diff);
     }
-    yes;
+    cout << ans / 60 << " " << ans % 60 << '\n';
 }
 int main(){
     FAST_IO;
     //Start Here
-    int t = 1;
+    int t=1;
     cin >> t;
     while (t--){
         solve();
