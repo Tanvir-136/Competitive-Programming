@@ -20,6 +20,9 @@ Competitive programming is a mind sport that involves solving well-defined probl
 - [Ratting-1500](Codeforces/Ratting-1500)
 - [Ratting-1600](Codeforces/Ratting-1600)
 
+  #[CSES](CSES)
+  #[Hackerrank](Hackerrank)
+
 ## Usage
 
 Feel free to explore the code and solutions provided in this repository. You can browse through the daily challenges or search for specific problems by category or platform. If you find any errors, have suggestions, or want to contribute, please feel free to open an issue or submit a pull request. Your contributions are highly appreciated!
