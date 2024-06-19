@@ -10,19 +10,12 @@ using namespace std;
 //---------------------------------------------------------------//
 void solve()
 {
-    int n;
-    cin>> n;
-    set<int> st;
-    for(int i=0;i<n;i++){
-        int x;
-        cin >> x;
-        st.insert(x);
-    }
-    if (st.size()<n){
-        no;
-    }else{
-        yes;
-    }
+    ll a, b, k;
+    cin >> a >> b >> k;
+    ll moves_right = (k + 1) / 2;
+    ll moves_left = k / 2;
+    ll ans = (moves_right * a - moves_left * b);
+    cout << ans << nl;
 }
 int main(){
     FAST_IO;

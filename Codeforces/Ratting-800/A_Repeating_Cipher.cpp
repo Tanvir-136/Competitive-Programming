@@ -8,27 +8,24 @@
 #define nl '\n'
 using namespace std;
 //---------------------------------------------------------------//
-void solve()
-{
+void solve() {
     int n;
-    cin>> n;
-    set<int> st;
-    for(int i=0;i<n;i++){
-        int x;
-        cin >> x;
-        st.insert(x);
+    cin >> n;
+    string s;
+    cin >> s;
+    string ans;
+    int index = 0;
+    for (int i = 1; index < n; ++i) {
+        ans += s[index];
+        index += i;
     }
-    if (st.size()<n){
-        no;
-    }else{
-        yes;
-    }
+    cout << ans << nl;
 }
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
         solve();
     }

@@ -11,26 +11,26 @@ using namespace std;
 void solve()
 {
     int n;
-    cin>> n;
-    set<int> st;
-    for(int i=0;i<n;i++){
-        int x;
-        cin >> x;
-        st.insert(x);
+    cin >> n;
+    vector<int> a(n);
+    map<int , int> mp;
+    for (int i = 0; i < n; i++){
+        cin >> a[i];
+        mp[a[i]]++;
     }
-    if (st.size()<n){
-        no;
-    }else{
-        yes;
+    int mx = 1e-9;
+    for(auto it: mp){
+        mx = max(mx,it.second);
     }
+    cout << mx << nl;
 }
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
-        solve();
+    solve();
     }
     return 0;
 }

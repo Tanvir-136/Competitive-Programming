@@ -11,26 +11,25 @@ using namespace std;
 void solve()
 {
     int n;
-    cin>> n;
-    set<int> st;
-    for(int i=0;i<n;i++){
-        int x;
-        cin >> x;
-        st.insert(x);
+    cin >> n;
+    vector<int> a(n);
+    for(auto &it : a){
+        cin >> it;
     }
-    if (st.size()<n){
-        no;
-    }else{
-        yes;
+    sort(all(a));
+    int ans = 0;
+    for(int i = 0; i < n - 1; i += 2){
+        ans += abs(a[i] - a[i + 1]);
     }
+    cout << ans << nl;
 }
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
-        solve();
+    solve();
     }
     return 0;
 }

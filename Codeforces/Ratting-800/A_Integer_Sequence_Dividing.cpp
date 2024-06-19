@@ -11,26 +11,21 @@ using namespace std;
 void solve()
 {
     int n;
-    cin>> n;
-    set<int> st;
-    for(int i=0;i<n;i++){
-        int x;
-        cin >> x;
-        st.insert(x);
-    }
-    if (st.size()<n){
-        no;
+    cin >> n;
+    ll s = (n * (n + 1)) / 2;
+    if(s % 2 == 0){
+        cout << 0 << nl;
     }else{
-        yes;
+        cout << 1 << nl;
     }
 }
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
-        solve();
+    solve();
     }
     return 0;
 }

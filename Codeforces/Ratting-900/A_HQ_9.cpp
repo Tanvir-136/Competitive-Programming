@@ -10,15 +10,16 @@ using namespace std;
 //---------------------------------------------------------------//
 void solve()
 {
-    int n;
-    cin>> n;
-    set<int> st;
-    for(int i=0;i<n;i++){
-        int x;
-        cin >> x;
-        st.insert(x);
+    string s;
+    cin >> s;
+    bool found = false;
+    for(int i=0;i<s.size();i++){
+        if(s[i] == 'H' || s[i] == 'Q' || s[i] == '9'){
+            found = true;
+            break;
+        }
     }
-    if (st.size()<n){
+    if(!found){
         no;
     }else{
         yes;
@@ -28,9 +29,9 @@ int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
-        solve();
+    solve();
     }
     return 0;
 }

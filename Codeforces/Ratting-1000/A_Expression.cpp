@@ -10,25 +10,20 @@ using namespace std;
 //---------------------------------------------------------------//
 void solve()
 {
-    int n;
-    cin>> n;
-    set<int> st;
-    for(int i=0;i<n;i++){
-        int x;
-        cin >> x;
-        st.insert(x);
-    }
-    if (st.size()<n){
-        no;
-    }else{
-        yes;
-    }
+    int a, b, c;
+    cin >> a >> b >> c;
+    int ans1 = a + (b * c);
+    int ans2 = a * (b + c);
+    int ans3 = a * b * c;
+    int ans4 = (a + b) * c;
+    int ans5 = a + b + c;
+    cout << max({ans1, ans2, ans3, ans4, ans5}) << nl;
 }
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
         solve();
     }
