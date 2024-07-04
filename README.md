@@ -9,7 +9,7 @@ Competitive programming is a mind sport that involves solving well-defined probl
 ## Folder Structure
 
 - **Ratting wise**: Contains folders organized by `Ratting`, each containing the code submissions for the challenges solved on that day.
-
+-[Codeforces](Codeforces)
 - [Ratting-800](Codeforces/Ratting-800)
 - [Ratting-900](Codeforces/Ratting-900)
 - [Ratting-1000](Codeforces/Ratting-1000)
@@ -19,6 +19,10 @@ Competitive programming is a mind sport that involves solving well-defined probl
 - [Ratting-1400](Codeforces/Ratting-1400)
 - [Ratting-1500](Codeforces/Ratting-1500)
 - [Ratting-1600](Codeforces/Ratting-1600)
+
+
+-[CSES](CSES)
+-[Hackerrank](Hackerrank)
 
 ## Usage
 
