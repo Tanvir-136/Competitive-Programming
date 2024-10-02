@@ -14,30 +14,24 @@ using namespace std;
 void solve(){
     int n;
     cin >> n;
-    vector<ll> a(n);
+    vector<int> a(n);
     for(auto &it : a){
         cin >> it;
     }
-    sort(all(a));
-    if(n <= 2){
-        cout << -1 << nl;
-        return; 
-    }
-
-    ll sum = accumulate(all(a), 0ll);
-    ll target = a[n / 2];
-    ll low = 0, high = 5e13; 
-    ll ans = 1e18;
-
-    while(low <= high){
-        ll mid = (high + low) / 2;
-        if((sum + mid) > (2 * n * target)){
-            ans = min(ans, mid);
-            high = mid - 1;
-        }else{
-            low = mid + 1;
+    int mx_1 = -1, mx_2 = -1, cnt_o = 0, cnt_e = 0;
+    for(int i = 0; i < n; i++){
+        if (i % 2 == 0) {
+            mx_2 = max(mx_2, a[i]);
+            cnt_e++;
+        } else {
+            mx_1 = max(mx_1, a[i]);
+            cnt_o++;
         }
     }
+    int ans1 = mx_1 + cnt_o;
+    int ans2 = mx_2 + cnt_e;
+
+    int ans = max(ans1, ans2);
     cout << ans << nl;
 }
 int main(){
