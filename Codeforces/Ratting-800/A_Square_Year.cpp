@@ -11,17 +11,21 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    string s;
+    cin >> s;
+    int x = stoi(s);
+    int sq = sqrt(x);
+    if(sq * sq == x){
+        cout << 0 << ' ' << sq << nl;
+    }else{
+        cout << -1 << nl;
+    }
 }
-
 int main(){
     FAST_IO;
     //Start Here
-    int t=1;
+    int t = 1;
     cin >> t;
     while (t--){
         solve();

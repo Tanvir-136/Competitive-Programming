@@ -11,18 +11,23 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    for(int i = 1; i <= 400; ++i){
+        if(n * i == 400){
+            cout << i << nl;
+            return;
+        }
+    }
+    cout << -1 << nl;
 }
 
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
         solve();
     }

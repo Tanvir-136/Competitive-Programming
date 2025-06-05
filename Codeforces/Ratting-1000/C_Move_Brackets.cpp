@@ -11,19 +11,34 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
-void solve(){
+void solve() {
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    string s;
+    cin >> s;
+    stack<char> st;
+    for (char c : s) {
+        if (!st.empty() && st.top() == '(' && c == ')') {
+            st.pop();  
+        } else {
+            st.push(c);
+        }
+    }
+    string res = "";
+    while (!st.empty()) {
+        res += st.top();
+        st.pop();
+    }
+    reverse(all(res)); 
+    cout << res.size() / 2 << nl;
 }
 
-int main(){
+int main() {
     FAST_IO;
-    //Start Here
-    int t=1;
+    // Start Here
+    int t = 1;
     cin >> t;
-    while (t--){
+    while (t--) {
         solve();
     }
     return 0;

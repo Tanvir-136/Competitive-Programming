@@ -13,16 +13,17 @@ using namespace std;
 /*---------------------------------------------------------------*/
   
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    ll a, b;
+    cin >> a >> b;
+    ll ans =  pow(a, b) + pow(b, a);
+    cout << ans << nl;
 }
 
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
         solve();
     }

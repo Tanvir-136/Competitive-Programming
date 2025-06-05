@@ -13,16 +13,28 @@ using namespace std;
 /*---------------------------------------------------------------*/
   
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    ll n, k;
+    cin >> n >> k;
+    vector<ll> a;
+    for (ll i = 1; i * i <= n; ++i) {
+        if (n % i == 0) {
+            a.push_back(i); 
+            if (i != n / i) {
+                a.push_back(n / i);
+            }
+        }
+    }
+    sort(all(a));
+    if (a.size() < k) {
+        cout << -1 << nl;
+    } else {
+        cout << a[k - 1] << nl;
+    }
 }
-
 int main(){
     FAST_IO;
-    //Start Here
-    int t=1;
-    cin >> t;
+    int t = 1;
+    //cin >> t;
     while (t--){
         solve();
     }

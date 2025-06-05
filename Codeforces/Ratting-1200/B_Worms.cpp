@@ -11,18 +11,31 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    vector<int> a(n), pre(n);
+    for(auto &it : a){
+        cin >> it;
+    }
+    pre[0] = a[0];
+    for(int i = 1; i < n; ++i){
+        pre[i] = pre[i - 1] + a[i];
+    }
+    int m;
+    cin >> m;
+    while(m--){
+        ll x;
+        cin >> x;
+        auto idx = lower_bound(all(pre), x);
+        cout << (idx - pre.begin()) + 1 << nl;
+    }
 }
-
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
         solve();
     }

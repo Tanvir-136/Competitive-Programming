@@ -11,18 +11,27 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    int n , k;
+    cin >> n >> k;
+    vector<int> a(n), b(n);
+    for(int i = 0; i < n; ++i){
+        cin >> a[i] >> b[i];
+    }
+    for(int i = 1; i <= k; ++i){
+        int mx = INT_MIN; 
+        for(int j = 0; j < n; ++j){
+            int ans = a[j] * (b[j] + i);
+            mx = max(mx, ans);  
+        }
+        cout << mx << nl;
+    }
 }
-
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
         solve();
     }

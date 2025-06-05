@@ -11,11 +11,27 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
     int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    string s;
+    cin >> n >> s;
+    int tot1 = 0;
+    vector<int> a(n);
+    for (int i = 0; i < n; i++){
+        if (s[i] == '1'){
+            tot1++;
+            a[i] = 1;
+        }else{
+            a[i] = -1;
+        }
+    }
+    int best = 0, cur = 0;
+    //kadane's algorithm to find maximum sub array sum
+    for (int x : a) {
+        cur = max(0, cur + x);
+        best = max(best, cur);
+    }
+    cout << (tot1 - best) << nl;
 }
 
 int main(){

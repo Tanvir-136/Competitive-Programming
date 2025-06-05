@@ -11,18 +11,27 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    map<int, int> mp;
+    for(int i = 0; i < n; ++i){
+        int x;
+        cin >> x;
+        ++mp[x];
+    }
+    int ans = 0;
+    for(auto &it : mp){
+        ans = max(ans, it.second);
+    }
+    cout << ans << ' ' << mp.size() << nl;
 }
 
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
         solve();
     }

@@ -11,18 +11,33 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    int n, b, d;
+    cin >> n >> b >> d;
+    vector<int> a(n);
+    for(auto &it : a){
+        cin >> it;
+    }
+    int waste = 0, cnt = 0;;
+    for(int i = 0; i < n; ++i){
+        if(a[i] > b){
+            continue;
+        }else{
+            waste += a[i];
+        }
+        if(waste > d){
+            ++cnt;
+            waste = 0;
+        }
+    }
+    cout << cnt << nl;
 }
 
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
         solve();
     }

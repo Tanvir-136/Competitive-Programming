@@ -11,17 +11,39 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
+    ll n;
     cin >> n;
-    cout << n - 1 << nl;
+    vector<ll> a(n), even;
+    ll s = -1;
+    for(auto &it : a){
+        cin >> it;
+        if(it % 2 == 0){
+            even.push_back(it);
+        }else if(it > s){
+            s = it;
+        }
+    }
+    if(s == -1 || even.empty()){
+        cout << 0 << nl;
+        return;
+    }
+    sort(all(even));
+    int ans = even.size();
+    for(auto &it : even){
+        if(it < s){
+            s += it;
+        }else{
+            ans += 1;
+            break;
+        }
+    }
+    cout << ans << nl;
 }
-
 int main(){
     FAST_IO;
     //Start Here
-    int t=1;
+    int t = 1;
     cin >> t;
     while (t--){
         solve();

@@ -10,12 +10,21 @@
 /*---------------------------------------------------------------*/
 const int N = 1e5 + 10;
 using namespace std;
-/*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    int n, k, p;
+    cin >> n >> k >> p;
+    int ans = 0;
+    if(k < 0){
+        ans = (k - p + 1) / p;
+    }else{
+        ans = (k + p - 1) / p;
+    }
+    ans = abs(ans);
+    if(ans <= n){
+        cout << ans << nl;
+    }else{
+        cout << -1 << nl;
+    }
 }
 
 int main(){

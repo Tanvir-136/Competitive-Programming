@@ -11,17 +11,30 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    int n, k;
+    cin >> n >> k;
+    if(n <= k){
+        cout << 1 << nl;
+    }else{
+        int ans = n;
+        for(int i = 1; i * i <= n; ++i){
+            if(n % i == 0){
+                if(i <= k){
+                    ans = min(ans, n / i);
+                }
+                if(n / i <= k){
+                    ans = min(ans, i);
+                }
+            }
+        }
+        cout << ans << nl;
+    }
 }
-
 int main(){
     FAST_IO;
     //Start Here
-    int t=1;
+    int t = 1;
     cin >> t;
     while (t--){
         solve();

@@ -11,13 +11,17 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    vector<string> a(3);
+    for(int i = 0; i < 3; ++i){
+        cin >> a[i];
+    }
+    string ans = " ";
+    for(int i = 0; i < 3; ++i){
+        ans += a[i][0];
+    }
+    cout << ans << nl;
 }
-
 int main(){
     FAST_IO;
     //Start Here

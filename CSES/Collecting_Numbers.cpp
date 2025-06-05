@@ -11,18 +11,33 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    vector<pair<int, int>> a(n);
+    for (int i = 0; i < n; ++i) {
+        int x;
+        cin >> x;
+        a[i] = {x, i};
+    }
+    sort(all(a));
+    int ans = 1;
+    // for(auto &it : a){
+    //     cout << it.first << ' ' << it.second << nl;
+    // }
+    for (int i = 1; i < n; ++i) {
+        if (a[i].second < a[i - 1].second) { 
+            ++ans;
+        }
+    }
+    cout << ans << nl;
 }
 
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
         solve();
     }

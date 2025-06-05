@@ -11,16 +11,22 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    vector<string> s(8);
+    for(auto &it : s){
+        cin >> it;
+    }
+    for(int i = 0; i < 8; ++i){
+        int R = count(all(s[i]),'R');
+        if(R == 8){
+            cout << 'R' << nl;
+            return;
+        }
+    }
+    cout << 'B' << nl;
 }
-
 int main(){
     FAST_IO;
-    //Start Here
     int t=1;
     cin >> t;
     while (t--){

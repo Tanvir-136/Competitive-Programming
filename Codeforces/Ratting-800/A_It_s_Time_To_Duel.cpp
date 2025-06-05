@@ -11,11 +11,29 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    vector<int> a(n);
+    for(auto &it : a){
+        cin >> it;
+    }
+    ll sum = accumulate(all(a), 0LL);
+    if(sum > n - 1){
+        yes;
+        return;
+    }
+    for(int i = 0; i < n - 1; ++i){
+        if(a[i] == 0 && a[i + 1] == 0){
+            flag = false;
+            break;
+        }
+    }
+    if(!flag){
+        yes;
+    }else{
+        no;
+    }
 }
 
 int main(){

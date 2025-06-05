@@ -15,7 +15,22 @@ using namespace std;
 void solve(){
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    vector<int> a(n), b(n);
+    for(auto &it : a){
+        cin >> it;
+    }
+    for(auto &it : b){
+        cin >> it;
+    }
+    ll m = 0, s = 0;
+    for(int i = 0; i < n - 1; ++i){
+        if(a[i] > b[i + 1]){
+            m += a[i];
+            s += b[i + 1];
+        }
+    }
+    m += a[n - 1];
+    cout << abs(m - s) << nl;
 }
 
 int main(){

@@ -13,11 +13,23 @@ using namespace std;
 /*---------------------------------------------------------------*/
   
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
-}
+    ll n, a, b, c;
+    cin >> n >> a >> b >> c;
+    ll sum = a + b + c;
+    ll cycle = n / sum;
+    ll walked = cycle * sum;
+    ll day = 3 * cycle;
 
+    if (walked >= n){
+        cout << day << nl;
+    }else if (walked + a >= n){
+        cout << day + 1 << nl;
+    }else if (walked + a + b >= n){
+        cout << day + 2 << nl;
+    }else{
+        cout << day + 3 << nl;
+    }
+}
 int main(){
     FAST_IO;
     //Start Here

@@ -11,11 +11,17 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    int n , m , l , r;
+    cin >> n >> m >> l >> r;
+    int right = min(m, r);
+    int left = abs(right - m);
+    if(left == 0){
+        cout << 0 << ' ' << right << nl;
+    } else {
+        left = -left;
+        cout << left << ' ' << right << nl;
+    }
 }
 
 int main(){

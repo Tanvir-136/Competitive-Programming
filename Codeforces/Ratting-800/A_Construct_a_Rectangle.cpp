@@ -13,9 +13,30 @@ using namespace std;
 /*---------------------------------------------------------------*/
   
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    vector<int> a(3);
+    for(int i = 0; i < 3; ++i){
+        cin >> a[i];
+    }
+    sort(all(a));
+    if(a[0] == a[1]){
+        if(a[2] % 2 == 0 || a[0] + a[1] == a[2]){
+            yes;
+        }else{ 
+            no;
+        }
+    }else if(a[1] == a[2]){
+        if(a[0] % 2 == 0){
+            yes;
+        }else{ 
+            no;
+        }
+    }else{
+        if(a[0] + a[1] == a[2]){
+            yes;
+        }else{ 
+            no;
+        }
+    }
 }
 
 int main(){

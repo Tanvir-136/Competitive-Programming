@@ -11,18 +11,32 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
     int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    string s, temp;
+    cin >> n >> s;
+    temp = s;
+    sort(all(temp));
+    if(temp == s){
+        no;
+        return;
+    }
+    int l = -1, r = -1;
+    for(int i = 0; i < n - 1; ++i){
+        if(s[i] > s[i + 1]){
+            l = i;
+            r = i + 1;
+            break;
+        }
+    }
+    yes;
+    cout << l + 1 << ' ' << r + 1 << nl;
 }
-
 int main(){
     FAST_IO;
     //Start Here
-    int t=1;
-    cin >> t;
+    int t = 1;
+    //cin >> t;
     while (t--){
         solve();
     }

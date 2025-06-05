@@ -15,7 +15,11 @@ using namespace std;
 void solve(){
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    if(n % 33 == 0){
+        yes;
+    }else{
+        no;
+    }
 }
 
 int main(){

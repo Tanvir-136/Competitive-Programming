@@ -11,17 +11,34 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    vector<int> a(n - 2);
+    for(auto &it : a){
+        cin >> it;
+    }
+    if(n == 3){
+        yes;
+        return;
+    }
+    bool flag = false;
+    for(int i = 1; i < n - 3; ++i){
+        if(a[i] == 0 && a[i - 1] == 1 && a[i + 1] == 1){
+            flag = true;
+            break;
+        }
+    }
+    if(!flag){
+        yes;
+    }else{
+        no;
+    }
 }
-
 int main(){
     FAST_IO;
     //Start Here
-    int t=1;
+    int t = 1;
     cin >> t;
     while (t--){
         solve();

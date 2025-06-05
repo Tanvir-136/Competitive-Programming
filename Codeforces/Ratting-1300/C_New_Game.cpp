@@ -11,13 +11,23 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
-void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+void solve() {
+    int n, k;
+    cin >> n >> k;
+    vector<int> a(n);
+    for (int &it : a){
+        cin >> it;
+    }
+    sort(all(a));
+    int ans = 0, j = 0;
+    for (int i = 0; i < n; i++) {
+        while (j < n && a[j] - a[i] < k && (j == i || a[j] - a[j - 1] <= 1)) {
+            j++;
+        }
+        ans = max(ans, j - i);
+    }
+    cout << ans << nl;
 }
-
 int main(){
     FAST_IO;
     //Start Here

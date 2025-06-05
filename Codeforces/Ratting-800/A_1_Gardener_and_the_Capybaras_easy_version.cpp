@@ -13,15 +13,30 @@ using namespace std;
 /*---------------------------------------------------------------*/
   
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
-}
+    string s;
+    cin >> s;
+    int n = s.size();
+    bool found = false;
 
+    for (int i = 1; i < n && !found; ++i){
+        for (int j = i + 1; j < n && !found; ++j){
+            string a = s.substr(0, i);
+            string b = s.substr(i, j - i);
+            string c = s.substr(j);
+            if ((a <= b && c <= b) || (b <= a && b <= c)){
+                cout << a << " " << b << " " << c << nl;
+                found = true;
+            }
+        }
+    }
+    if (!found){
+        cout << ":(" << nl;
+    }
+}
 int main(){
     FAST_IO;
     //Start Here
-    int t=1;
+    int t = 1;
     cin >> t;
     while (t--){
         solve();

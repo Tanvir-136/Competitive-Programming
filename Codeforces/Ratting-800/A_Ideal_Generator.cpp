@@ -11,13 +11,15 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    if(n % 2 == 1){
+        yes;
+    }else{
+        no;
+    }
 }
-
 int main(){
     FAST_IO;
     //Start Here

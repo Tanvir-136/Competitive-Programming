@@ -11,11 +11,14 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+    if (min(a, c) >= min(b, d)){
+        cout << "Gellyfish" << nl;
+    }else{
+        cout << "Flower" << nl;
+    }
 }
 
 int main(){

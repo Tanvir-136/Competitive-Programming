@@ -11,18 +11,26 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    string s;
+    cin >> s;
+    int m;
+    cin >> m;
+    int hh = stoi(s.substr(0, 2)); 
+    int mm = stoi(s.substr(3, 2));
+
+    int total = hh * 60 + mm + m; 
+
+    int new_hh = (total / 60) % 24;
+    int new_mm = total % 60;
+
+    cout << setw(2) << setfill('0') << new_hh << ':' << setw(2) << setfill('0') << new_mm << nl;
 }
 
 int main(){
     FAST_IO;
-    //Start Here
-    int t=1;
-    cin >> t;
+    int t = 1;
+    //cin >> t;
     while (t--){
         solve();
     }

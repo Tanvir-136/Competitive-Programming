@@ -11,17 +11,41 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    int n, k;
+    cin >> n >> k;
+    vector<int> a(n);
+    for(int i = 0; i < n; ++i){
+        cin >> a[i];
+    }
+    sort(all(a));
+    if(a[0] > k){
+        cout << 0 << nl;
+        return;
+    }
+    int l = 0, r = n - 1, cnt = 0;
+    while(l < r){
+        if(a[l] + a[r] == k){
+            ++cnt;
+            ++l, --r;
+        }
+        if(a[r] >= k){
+            --r;
+        }
+        if(a[l] + a[r] > k){
+            --r;
+        }
+        if(a[l] + a[r] < k){
+            ++l;
+        }
+    }
+    cout << cnt << nl;
 }
 
 int main(){
     FAST_IO;
     //Start Here
-    int t=1;
+    int t = 1;
     cin >> t;
     while (t--){
         solve();

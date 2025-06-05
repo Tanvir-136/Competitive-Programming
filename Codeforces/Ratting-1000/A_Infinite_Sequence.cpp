@@ -8,21 +8,30 @@
 #define MOD 1e9 + 7
 #define nl '\n'
 /*---------------------------------------------------------------*/
-const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
+    ll n;
     cin >> n;
-    cout << n - 1 << nl;
+    ll l = 1, r = 1e8, range = 0;
+    while (l <= r) {
+        ll mid = (l + r) / 2;
+        ll triangular = mid * (mid + 1) / 2; 
+        if (triangular >= n) {
+            range = mid;
+            r = mid - 1;
+        } else {
+            l = mid + 1;
+        }
+    }
+    ll start = (range - 1) * range / 2; 
+    cout << n - start << nl;
 }
 
 int main(){
     FAST_IO;
-    //Start Here
-    int t=1;
-    cin >> t;
+    int t = 1;
+    //cin >> t;
     while (t--){
         solve();
     }

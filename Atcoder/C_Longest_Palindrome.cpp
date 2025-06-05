@@ -11,19 +11,25 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
-void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
-}
+void solve() {
+    string s;
+    cin >> s;
+    int n = s.size(), mx = 1;
+    for (int i = 0; i < n; i++) {
+        for (int l = i, r = i; l >= 0 && r < n && s[l] == s[r]; l--, r++)
+            mx = max(mx, r - l + 1);
 
+        for (int l = i, r = i + 1; l >= 0 && r < n && s[l] == s[r]; l--, r++)
+            mx = max(mx, r - l + 1);
+    }
+    cout << mx << nl;
+}
 int main(){
     FAST_IO;
-    //Start Here
-    int t=1;
-    cin >> t;
-    while (t--){
+    // Start Here
+    int t = 1;
+    //cin >> t;
+    while (t--) {
         solve();
     }
     return 0;

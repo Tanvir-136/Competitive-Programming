@@ -11,11 +11,18 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    vector<int> a(n);
+    for(auto &it : a){
+        cin >> it;
+    }
+    sort(all(a), greater<int>());
+    for(auto &it : a){
+        cout << it << ' ';
+    }
+    cout << nl;
 }
 
 int main(){

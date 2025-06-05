@@ -11,17 +11,35 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
-void solve(){
+void solve() {
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    vector<int> a(n);
+    for (int &it : a){
+        cin >> it;
+    }
+    if (n == 1) {
+        cout << 0 << nl;
+        return;
+    }
+    int ans = INT_MIN;
+    for (int i = 0; i < n - 1; i++) {
+        ans = max(ans, a[i] - a[i+1]);
+    }
+    for (int i = 1; i < n; i++) {
+        ans = max(ans, a[i] - a[0]);
+    }
+    for (int i = 0; i < n - 1; i++) {
+        ans = max(ans, a[n-1] - a[i]);
+    }
+    cout << ans << nl;
 }
+
 
 int main(){
     FAST_IO;
     //Start Here
-    int t=1;
+    int t = 1;
     cin >> t;
     while (t--){
         solve();

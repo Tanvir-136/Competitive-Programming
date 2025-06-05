@@ -11,11 +11,15 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    double l, r, d, u;
+    cin >> l >> r >> d >> u;
+
+    if(l == r && d == u && d == l){
+        yes;
+    }else{
+        no;
+    }
 }
 
 int main(){

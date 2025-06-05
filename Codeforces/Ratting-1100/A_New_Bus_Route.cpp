@@ -11,18 +11,31 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
-    int n;
+    ll n;
     cin >> n;
-    cout << n - 1 << nl;
+    vector<ll> a(n);
+    for(auto &it : a){
+        cin >> it;
+    }
+    sort(all(a));
+    ll mn = 1e18, cnt = 0;
+    for(ll i = 0; i < n - 1; ++i){
+        mn = min(mn, abs(a[i + 1] - a[i]));
+    }
+    for(ll i = 0; i < n - 1; ++i){
+        if(abs(a[i + 1] - a[i]) == mn){
+            ++cnt;
+        }
+    }
+    cout << mn << ' ' << cnt << nl;
 }
 
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    cin >> t;
+    //cin >> t;
     while (t--){
         solve();
     }

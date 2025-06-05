@@ -11,19 +11,28 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
-void solve(){
+void solve() {
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    vector<string> a(n);
+    for (int i = 0; i < n; ++i) {
+        cin >> a[i];
+    }
+    sort(all(a), [](const string &x, const string &y) {
+        return x + y < y + x;
+    });
+
+    for (auto &it : a) {
+        cout << it;
+    }
+    cout << nl;
 }
 
-int main(){
+int main() {
     FAST_IO;
-    //Start Here
-    int t=1;
-    cin >> t;
-    while (t--){
+    int t = 1;
+    // cin >> t;
+    while (t--) {
         solve();
     }
     return 0;

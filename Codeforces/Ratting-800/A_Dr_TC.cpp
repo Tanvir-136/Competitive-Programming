@@ -11,13 +11,25 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-  
 void solve(){
     int n;
     cin >> n;
-    cout << n - 1 << nl;
+    string s;
+    cin >> s;
+    int ans = 0;
+    for(int i = 0; i < n; ++i){
+        string a;
+        a = s;
+        if(a[i] == '0'){
+            a[i] = '1'; 
+        }else{
+            a[i] = '0';
+        }
+        int tmp = count(all(a),'1');
+        ans += tmp;
+    }
+    cout << ans << nl;
 }
-
 int main(){
     FAST_IO;
     //Start Here

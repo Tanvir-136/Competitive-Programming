@@ -13,9 +13,12 @@ using namespace std;
 /*---------------------------------------------------------------*/
   
 void solve(){
-    int n;
-    cin >> n;
-    cout << n - 1 << nl;
+    vector<int> a(3);
+    for(auto &it : a){
+        cin >> it;
+    }
+    sort(all(a));
+    cout << a[1] << nl;
 }
 
 int main(){
