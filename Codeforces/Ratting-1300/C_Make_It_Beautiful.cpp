@@ -12,32 +12,26 @@ const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
 void solve(){
-    ll n, q;
-    cin >> n >> q;
-    vector<int> a(n);
-    for (auto &it : a){
+    ll n, k;
+    cin >> n >> k;
+    vector<ll> a(n);
+    ll ans = 0;
+    for(auto &it : a){
         cin >> it;
+        ans += __builtin_popcountll(it);
     }
-    ll mx = 31;
-    for (ll i = 0; i < q; i++){
-        ll x;
-        cin >> x;
-        if (mx > x){
-            mx = x;
-            ll pw = (1LL << x), add = (1LL << (x - 1LL));
-            for (ll i = 0; i < n; ++i){
-                if (a[i] % pw == 0){
-                    a[i] += add;
-                }
+    sort(all(a));
+    for(ll i = 0; i <= 60; ++i){
+        ll pw = (1LL << i);
+        for(int i = 0; i < n; ++i){
+            if(!(a[i] & pw) && k >= pw){
+                ++ans;
+                k -= pw;
             }
         }
     }
-    for (auto &it : a){
-        cout << it << ' ';
-    }
-    cout << nl;
+    cout << ans << nl;
 }
-
 int main(){
     FAST_IO;
     //Start Here
