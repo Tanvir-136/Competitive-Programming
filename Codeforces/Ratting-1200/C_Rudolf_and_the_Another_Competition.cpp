@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 #define FAST_IO ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
-#define dbg(x) cout<<#x<<" = "<<x<<'\n';
+#define dbg(x) cout << #x << " = " << x << '\n';
 #define all(x) (x).begin(), (x).end()
-#define yes cout<<"YES"<<'\n';
-#define no cout<<"NO"<<'\n';
+#define yes cout << "YES" << '\n';
+#define no cout << "NO" << '\n';
 #define ll long long
 #define MOD 1000000007
 #define nl '\n'
@@ -16,15 +16,11 @@ void solve(){
     cin >> n >> m >> h;
     vector<tuple<ll, ll, ll>> cnt;
     for(int id = 1; id <= n; ++id){
-        vector<ll> a(m), pre(m);
+        vector<ll> a(m);
         for(auto &it : a){
             cin >> it;
         } 
         sort(all(a));
-        pre[0] = a[0];
-        for(ll i = 1; i < m; ++i){
-            pre[i] = pre[i - 1] + a[i];
-        } 
         ll sol = 0, penalty = 0, time = 0;
         for(ll i = 0; i < m; ++i){
             if(time + a[i] > h){
@@ -42,7 +38,6 @@ void solve(){
             if (get<1>(a) != get<1>(b)) return get<1>(a) < get<1>(b);
             return false;
         });
-
     int idx = 1;
     for (auto &[solved, penalty, id] : cnt) {
         if (id == 1) {
