@@ -58,6 +58,34 @@
       <br/>
       <a href="https://atcoder.jp/users/tanvir_islam">
         <img src="https://img.shields.io/badge/dynamic/json?label=Current%20Rating&query=rating&url=https://atcoder.jp/users/tanvir_islam/json&style=flat-square&labelColor=ffd43b&color=0a0a0a&logo=atcoder&logoColor=white" alt="AtCoder Rating"/>
+    <a href="https://atcoder.jp/users/tanvir_islam">
+      <img src="https://img.shields.io/badge/dynamic/json?label=Max%20Rating&query=highest&url=https://atcoder.jp/users/tanvir_islam/json&style=flat-square&labelColor=ffd43b&color=0a0a0a&logo=atcoder&logoColor=white" alt="AtCoder Max"/>
+    </a>
+    <a href="https://atcoder.jp/users/tanvir_islam">
+      <img src="https://img.shields.io/badge/dynamic/json?label=Rank&query=rank&url=https://atcoder.jp/users/tanvir_islam/json&style=flat-square&labelColor=f4a261&color=0a0a0a&logo=atcoder&logoColor=white" alt="AtCoder Rank"/>
+    </a>
+    <br/>
+    <a href="https://atcoder.jp/users/tanvir_islam">
+      <img src="https://atcoder-readme-stats.vercel.app/api?username=tanvir_islam&theme=github_dark&force_username=true&border_color=ffd43b&show_icons=true" alt="AtCoder Stats Card"/>
+    </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.codechef.com/users/tanvir_islam">
+        <img src="https://img.icons8.com/color/96/000000/codechef.png" width="72" alt="CodeChef"/>
+      </a>
+      <br/>
+      <a href="https://www.codechef.com/users/tanvir_islam">
+        <img src="https://img.shields.io/badge/dynamic/json?label=Current%20Rating&query=rating&url=https://codechef-api.vercel.app/handle/tanvir_islam&style=flat-square&labelColor=5B4638&color=0a0a0a&logo=codechef&logoColor=white" alt="CodeChef Rating"/>
+      </a>
+      <a href="https://www.codechef.com/users/tanvir_islam">
+        <img src="https://img.shields.io/badge/dynamic/json?label=Highest%20Rating&query=highest_rating&url=https://codechef-api.vercel.app/handle/tanvir_islam&style=flat-square&labelColor=5B4638&color=0a0a0a&logo=codechef&logoColor=white" alt="CodeChef Max"/>
+      </a>
+      <a href="https://www.codechef.com/users/tanvir_islam">
+        <img src="https://img.shields.io/badge/dynamic/json?label=Stars&query=stars&url=https://codechef-api.vercel.app/handle/tanvir_islam&style=flat-square&labelColor=f4a261&color=0a0a0a&logo=codechef&logoColor=white" alt="CodeChef Stars"/>
+      </a>
+      <br/>
+      <a href="https://www.codechef.com/users/tanvir_islam">
+        <img src="https://codechef-readme-stats.vercel.app/api?username=tanvir_islam&theme=github_dark&force_username=true&border_color=5B4638&show_icons=true" alt="CodeChef Stats Card"/>
       </a>
     </td>
     <td align="center" width="33%">
