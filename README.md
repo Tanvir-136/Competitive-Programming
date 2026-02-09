@@ -25,83 +25,35 @@
 </div>
 
 ---
-
 ## 📊 Live Performance Dashboard
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="https://codeforces.com/profile/tanvir_islam">
-        <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png" width="72" alt="Codeforces"/>
-      </a>
-      <br/>
-      <a href="https://codeforces.com/profile/tanvir_islam">
-        <img src="https://img.shields.io/badge/dynamic/json?label=Current%20Rating&query=result[0].rating&url=https://codeforces.com/api/user.info?handles=tanvir_islam&style=flat-square&labelColor=1f8acb&color=0a0a0a&logo=codeforces&logoColor=white" alt="CF Rating"/>
-      </a>
-      <a href="https://codeforces.com/profile/tanvir_islam">
-        <img src="https://img.shields.io/badge/dynamic/json?label=Max%20Rating&query=result[0].maxRating&url=https://codeforces.com/api/user.info?handles=tanvir_islam&style=flat-square&labelColor=25a18e&color=0a0a0a&logo=codeforces&logoColor=white" alt="CF Max"/>
-      </a>
-      <a href="https://codeforces.com/profile/tanvir_islam">
-        <img src="https://img.shields.io/badge/dynamic/json?label=Rank&query=result[0].rank&url=https://codeforces.com/api/user.info?handles=tanvir_islam&style=flat-square&labelColor=f4a261&color=0a0a0a&logo=codeforces&logoColor=white" alt="CF Rank"/>
-      </a>
-      <br/>
-      <a href="https://codeforces.com/profile/tanvir_islam">
-        <img src="https://codeforces-readme-stats.vercel.app/api/card?username=tanvir_islam&theme=github_dark&force_username=true&border_color=61dafb&show_icons=true" alt="CF Stats Card"/>
-      </a>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://atcoder.jp/users/tanvir_islam">
-        <img src="https://img.icons8.com/color/96/000000/atcoder.png" width="72" alt="AtCoder"/>
-      </a>
-      <br/>
-      <a href="https://atcoder.jp/users/tanvir_islam">
-        <img src="https://img.shields.io/badge/dynamic/json?label=Current%20Rating&query=rating&url=https://atcoder.jp/users/tanvir_islam/json&style=flat-square&labelColor=ffd43b&color=0a0a0a&logo=atcoder&logoColor=white" alt="AtCoder Rating"/>
-    <a href="https://atcoder.jp/users/tanvir_islam">
-      <img src="https://img.shields.io/badge/dynamic/json?label=Max%20Rating&query=highest&url=https://atcoder.jp/users/tanvir_islam/json&style=flat-square&labelColor=ffd43b&color=0a0a0a&logo=atcoder&logoColor=white" alt="AtCoder Max"/>
-    </a>
-    <a href="https://atcoder.jp/users/tanvir_islam">
-      <img src="https://img.shields.io/badge/dynamic/json?label=Rank&query=rank&url=https://atcoder.jp/users/tanvir_islam/json&style=flat-square&labelColor=f4a261&color=0a0a0a&logo=atcoder&logoColor=white" alt="AtCoder Rank"/>
-    </a>
-    <br/>
-    <a href="https://atcoder.jp/users/tanvir_islam">
-      <img src="https://atcoder-readme-stats.vercel.app/api?username=tanvir_islam&theme=github_dark&force_username=true&border_color=ffd43b&show_icons=true" alt="AtCoder Stats Card"/>
-    </a>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://www.codechef.com/users/tanvir_islam">
-        <img src="https://img.icons8.com/color/96/000000/codechef.png" width="72" alt="CodeChef"/>
-      </a>
-      <br/>
-      <a href="https://www.codechef.com/users/tanvir_islam">
-        <img src="https://img.shields.io/badge/dynamic/json?label=Current%20Rating&query=rating&url=https://codechef-api.vercel.app/handle/tanvir_islam&style=flat-square&labelColor=5B4638&color=0a0a0a&logo=codechef&logoColor=white" alt="CodeChef Rating"/>
-      </a>
-      <a href="https://www.codechef.com/users/tanvir_islam">
-        <img src="https://img.shields.io/badge/dynamic/json?label=Highest%20Rating&query=highest_rating&url=https://codechef-api.vercel.app/handle/tanvir_islam&style=flat-square&labelColor=5B4638&color=0a0a0a&logo=codechef&logoColor=white" alt="CodeChef Max"/>
-      </a>
-      <a href="https://www.codechef.com/users/tanvir_islam">
-        <img src="https://img.shields.io/badge/dynamic/json?label=Stars&query=stars&url=https://codechef-api.vercel.app/handle/tanvir_islam&style=flat-square&labelColor=f4a261&color=0a0a0a&logo=codechef&logoColor=white" alt="CodeChef Stars"/>
-      </a>
-      <br/>
-      <a href="https://www.codechef.com/users/tanvir_islam">
-        <img src="https://codechef-readme-stats.vercel.app/api?username=tanvir_islam&theme=github_dark&force_username=true&border_color=5B4638&show_icons=true" alt="CodeChef Stats Card"/>
-      </a>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/Tanvir-136">
-        <img src="https://img.icons8.com/fluency/96/000000/github.png" width="72" alt="GitHub"/>
-      </a>
-      <br/>
-      <a href="https://github.com/Tanvir-136">
-        <img src="https://img.shields.io/github/stars/Tanvir-136?style=flat-square&logo=github&logoColor=white&labelColor=181717&color=yellow" alt="Stars"/>
-      </a>
-      <a href="https://github.com/Tanvir-136?tab=followers">
-        <img src="https://img.shields.io/github/followers/Tanvir-136?style=flat-square&logo=github&logoColor=white&labelColor=181717&color=success" alt="Followers"/>
-      </a>
-    </td>
-  </tr>
-</table>
+### 🏆 Main Judge: Codeforces
+
+<a href="https://codeforces.com/profile/tanvir_islam">
+    <img src="https://img.shields.io/badge/dynamic/json?label=Current%20Rating&query=result[0].rating&url=https://codeforces.com/api/user.info?handles=tanvir_islam&style=for-the-badge&labelColor=1f8acb&color=0a0a0a&logo=codeforces&logoColor=white" alt="CF Rating"/>
+</a>
+<a href="https://codeforces.com/profile/tanvir_islam">
+    <img src="https://img.shields.io/badge/dynamic/json?label=Max%20Rating&query=result[0].maxRating&url=https://codeforces.com/api/user.info?handles=tanvir_islam&style=for-the-badge&labelColor=25a18e&color=0a0a0a&logo=codeforces&logoColor=white" alt="CF Max"/>
+</a>
+<a href="https://codeforces.com/profile/tanvir_islam">
+    <img src="https://img.shields.io/badge/dynamic/json?label=Rank&query=result[0].rank&url=https://codeforces.com/api/user.info?handles=tanvir_islam&style=for-the-badge&labelColor=f4a261&color=0a0a0a&logo=codeforces&logoColor=white" alt="CF Rank"/>
+</a>
+
+<br/>
+
+<a href="https://codeforces.com/profile/tanvir_islam">
+    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=tanvir_islam&theme=github_dark&force_username=true&border_color=61dafb&show_icons=true" alt="CF Stats Card"/>
+</a>
+
+### 🔗 Other Judges
+
+- [**AtCoder Profile**](https://atcoder.jp/users/tanvir_islam) - View ratings and contests.
+- [**CodeChef Profile**](https://www.codechef.com/users/tanvir_islam) - Check stars and ratings.
+- [**GitHub Profile**](https://github.com/Tanvir-136) - Explore repositories and contributions.
+
+</div>
 
 </div>
 
