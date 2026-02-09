@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Competitive%20Programming%20Arsenal&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Problem+Solver+%7C+Algorithm+Expert;Competitive+Programmer+%F0%9F%9A%80;Building+Mastery+One+Problem+at+a+Time" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Problem+Solver+%7C+Algorithm+Expert;Competitive+Programmer+🚀" alt="Typing SVG" />
 
 <p align="center">
   <a href="https://codeforces.com/profile/tanvir_islam">
@@ -24,13 +24,23 @@
 
 ---
 
-## 📊 Live Performance Dashboard
+## Live Performance Dashboard
 
 <div align="center">
 
 ### 🔵 Codeforces Statistics
 <a href="https://codeforces.com/profile/tanvir_islam">
   <img src="https://codeforces-readme-stats.vercel.app/api/card?username=tanvir_islam&theme=github_dark&force_username=true&border_color=61dafb&show_icons=true" alt="Codeforces Stats"/>
+</a>
+
+### 🟡 AtCoder Statistics
+<a href="https://atcoder.jp/users/tanvir_islam">
+    <img src="https://img.shields.io/badge/dynamic/json?labelColor=ffd43b&color=0a0a0a&style=for-the-badge&label=AtCoder%20Rating&query=rating&url=https://atcoder.jp/users/tanvir_islam/json&logo=atcoder&logoColor=white&cacheSeconds=3600" alt="AtCoder Statistics"/>
+</a>
+
+### 🟠 CodeChef Statistics
+<a href="https://www.codechef.com/users/tanvir_islam">
+    <img src="https://img.shields.io/badge/dynamic/json?labelColor=ff922b&color=0a0a0a&style=for-the-badge&label=CodeChef%20Rating&query=rating&url=https://codechef.com/users/tanvir_islam/json&logo=codechef&logoColor=white&cacheSeconds=3600" alt="CodeChef Statistics"/>
 </a>
 
 <br/>
@@ -57,30 +67,44 @@
 <div align="center">
 
 <table>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://codeforces.com/profile/tanvir_islam">
-        <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png" width="80px"/>
-        <h3>🔵 Codeforces</h3>
-      </a>
-      <img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=0a0a0a&style=flat-square&label=Current%20Rating&query=result[0].rating&url=https://codeforces.com/api/user.info?handles=tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=3600" alt="Rating"/>
-      <br/>
-      <img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=success&style=flat-square&label=Max%20Rating&query=result[0].maxRating&url=https://codeforces.com/api/user.info?handles=tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=3600" alt="Max Rating"/>
-      <br/>
-      <img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=orange&style=flat-square&label=Rank&query=result[0].rank&url=https://codeforces.com/api/user.info?handles=tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=3600" alt="Rank"/>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/Tanvir-136">
-        <img src="https://img.icons8.com/fluency/96/000000/github.png" width="80px"/>
-        <h3>💻 GitHub</h3>
-      </a>
-      <img src="https://img.shields.io/github/stars/Tanvir-136?style=flat-square&logo=github&logoColor=white&labelColor=181717&color=yellow" alt="Stars"/>
-      <br/>
-      <img src="https://img.shields.io/github/followers/Tanvir-136?style=flat-square&logo=github&logoColor=white&labelColor=181717&color=success" alt="Followers"/>
-      <br/>
-      <img src="https://img.shields.io/badge/Repositories-Public-blue?style=flat-square&logo=github" alt="Repositories"/>
-    </td>
-  </tr>
+    <tr>
+        <td align="center" width="25%">
+            <a href="https://codeforces.com/profile/tanvir_islam">
+                <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png" width="80px"/>
+                <h3>🔵 Codeforces</h3>
+            </a>
+            <img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=0a0a0a&style=flat-square&label=Current%20Rating&query=result[0].rating&url=https://codeforces.com/api/user.info?handles=tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=3600" alt="Rating"/>
+            <br/>
+            <img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=success&style=flat-square&label=Max%20Rating&query=result[0].maxRating&url=https://codeforces.com/api/user.info?handles=tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=3600" alt="Max Rating"/>
+            <br/>
+            <img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=orange&style=flat-square&label=Rank&query=result[0].rank&url=https://codeforces.com/api/user.info?handles=tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=3600" alt="Rank"/>
+        </td>
+        <td align="center" width="25%">
+            <a href="https://github.com/Tanvir-136">
+                <img src="https://img.icons8.com/fluency/96/000000/github.png" width="80px"/>
+                <h3>💻 GitHub</h3>
+            </a>
+            <img src="https://img.shields.io/github/stars/Tanvir-136?style=flat-square&logo=github&logoColor=white&labelColor=181717&color=yellow" alt="Stars"/>
+            <br/>
+            <img src="https://img.shields.io/github/followers/Tanvir-136?style=flat-square&logo=github&logoColor=white&labelColor=181717&color=success" alt="Followers"/>
+            <br/>
+            <img src="https://img.shields.io/github/repos/Tanvir-136?label=Public%20Repos&style=flat-square&logo=github&logoColor=white&labelColor=181717&color=blue" alt="Repositories"/>
+        </td>
+        <td align="center" width="25%">
+            <a href="https://atcoder.jp/users/tanvir_islam">
+                <img src="https://img.icons8.com/color/96/000000/atcoder.png" width="80px"/>
+                <h3>🟡 AtCoder</h3>
+            </a>
+            <img src="https://img.shields.io/badge/dynamic/json?labelColor=ffd43b&color=0a0a0a&style=flat-square&label=Current%20Rating&query=rating&url=https://atcoder.jp/users/tanvir_islam/json&logo=atcoder&logoColor=white&cacheSeconds=3600" alt="Rating"/>
+        </td>
+        <td align="center" width="25%">
+            <a href="https://www.codechef.com/users/tanvir_islam">
+                <img src="https://img.icons8.com/color/96/000000/codechef.png" width="80px"/>
+                <h3>🟠 CodeChef</h3>
+            </a>
+            <img src="https://img.shields.io/badge/dynamic/json?labelColor=ff922b&color=0a0a0a&style=flat-square&label=Current%20Rating&query=rating&url=https://codechef.com/users/tanvir_islam/json&logo=codechef&logoColor=white&cacheSeconds=3600" alt="Rating"/>
+        </td>
+    </tr>
 </table>
 
 </div>
@@ -121,17 +145,19 @@ graph LR
 <br>
 
 ```
+```
 Codeforces/
-├── 📁 Ratting-800/      ⭐ Foundation Building
-├── 📁 Ratting-900/      ⭐ Pattern Recognition
-├── 📁 Ratting-1000/     ⭐⭐ Logic Development
-├── 📁 Ratting-1100/     ⭐⭐ Problem Solving
-├── 📁 Ratting-1200/     ⭐⭐⭐ Algorithmic Thinking
-├── 📁 Ratting-1300/     ⭐⭐⭐ Advanced Concepts
-├── 📁 Ratting-1400/     ⭐⭐⭐⭐ Expert Level
-├── 📁 Ratting-1500/     ⭐⭐⭐⭐ Complex Problems
-├── 📁 Ratting-1600/     ⭐⭐⭐⭐⭐ Master Tier
-└── 📁 Interactive/      🎮 Interactive Problems
+├── 📁 [Ratting-800/](https://github.com/Tanvir-136/Competitive-Programming/tree/main/Codeforces/Ratting-800/)      
+├── 📁 [Ratting-900/](https://github.com/Tanvir-136/Competitive-Programming/tree/main/Codeforces/Ratting-900/)      
+├── 📁 [Ratting-1000/](https://github.com/Tanvir-136/Competitive-Programming/tree/main/Codeforces/Ratting-1000/)     
+├── 📁 [Ratting-1100/](https://github.com/Tanvir-136/Competitive-Programming/tree/main/Codeforces/Ratting-1100/)     
+├── 📁 [Ratting-1200/](https://github.com/Tanvir-136/Competitive-Programming/tree/main/Codeforces/Ratting-1200/)     
+├── 📁 [Ratting-1300/](https://github.com/Tanvir-136/Competitive-Programming/tree/main/Codeforces/Ratting-1300/)     
+├── 📁 [Ratting-1400/](https://github.com/Tanvir-136/Competitive-Programming/tree/main/Codeforces/Ratting-1400/)     
+├── 📁 [Ratting-1500/](https://github.com/Tanvir-136/Competitive-Programming/tree/main/Codeforces/Ratting-1500/)     
+├── 📁 [Ratting-1600/](https://github.com/Tanvir-136/Competitive-Programming/tree/main/Codeforces/Ratting-1600/)     
+└── 📁 [Interactive/](https://github.com/Tanvir-136/Competitive-Programming/tree/main/Codeforces/Interactive/)      
+```
 ```
 
 </details>
@@ -141,22 +167,26 @@ Codeforces/
 <br>
 
 ```
-CSES/
+[CSES/](https://github.com/Tanvir-136/Competitive-Programming/tree/main/CSES/)
 └── 📄 Solutions to CSES problems organized by category
 ```
 
 </details>
 
 <details>
+<details>
 <summary><b>📂 AtCoder Solutions</b></summary>
 <br>
 
 ```
-Atcoder/
+[AtCoder/](https://github.com/Tanvir-136/Competitive-Programming/tree/main/AtCoder/)
 ├── 📄 A_*.cpp    (Beginner friendly)
 ├── 📄 B_*.cpp    (Intermediate)
 ├── 📄 C_*.cpp    (Advanced)
 └── 📄 D_*.cpp    (Expert)
+```
+
+</details>
 ```
 
 </details>
@@ -166,18 +196,16 @@ Atcoder/
 ## 💻 Expert Template
 
 <details>
-<summary><b>⚡ Production-Ready Competitive Programming Template</b></summary>
+<summary><b>Ready Made Competitive Programming Template</b></summary>
 
 ```cpp
-// 🚀 High-Performance CP Template
-// Optimized for Speed & Efficiency
 
 #include <bits/stdc++.h>
 using namespace std;
 
 // ==================== FAST I/O ====================
 #define FAST_IO ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
-#define endl '\n'
+#define nl '\n'
 
 // ==================== TYPE DEFINITIONS ====================
 #define ll long long
@@ -209,6 +237,7 @@ const double EPS = 1e-9;
 // ==================== MATH UTILITIES ====================
 ll gcd(ll a, ll b) { return b ? gcd(b, a % b) : a; }
 ll lcm(ll a, ll b) { return a / gcd(a, b) * b; }
+
 ll power(ll a, ll b, ll mod = MOD) {
     ll res = 1;
     while(b > 0) {
@@ -290,8 +319,9 @@ int main() {
 
 [![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/tanvir_islam)
 [![AtCoder](https://img.shields.io/badge/AtCoder-000000?style=for-the-badge&logo=atcoder&logoColor=white)](https://atcoder.jp/users/tanvir_islam)
+[![CodeChef](https://img.shields.io/badge/CodeChef-FF922B?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/tanvir_islam)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tanvir-136)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanvir-islam-35aa671b2)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanvir-islam-)
 
 <br/><br/>
 
