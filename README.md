@@ -35,13 +35,15 @@
 
 ### 🟡 AtCoder Statistics
 <a href="https://atcoder.jp/users/tanvir_islam">
-    <img src="https://img.shields.io/badge/dynamic/json?labelColor=ffd43b&color=0a0a0a&style=for-the-badge&label=AtCoder%20Rating&query=rating&url=https://atcoder.jp/users/tanvir_islam/json&logo=atcoder&logoColor=white&cacheSeconds=3600" alt="AtCoder Statistics"/>
+    <img src="https://img.shields.io/badge/dynamic/json?label=AtCoder%20Rating&query=rating&url=https%3A%2F%2Fkenkoooo.com%2Fatcoder%2Fatcoder-api%2Fv2%2Fuser_info%3Fuser%3Dtanvir_islam&color=000000&labelColor=fea303&style=for-the-badge&logo=atcoder&logoColor=white" alt="AtCoder Stats"/>
 </a>
 
 ### 🟠 CodeChef Statistics
 <a href="https://www.codechef.com/users/tanvir_islam">
-    <img src="https://img.shields.io/badge/dynamic/json?labelColor=ff922b&color=0a0a0a&style=for-the-badge&label=CodeChef%20Rating&query=rating&url=https://codechef.com/users/tanvir_islam/json&logo=codechef&logoColor=white&cacheSeconds=3600" alt="CodeChef Statistics"/>
+    <img src="https://img.shields.io/badge/dynamic/json?label=CodeChef%20Rating&query=currentRating&url=https%3A%2F%2Fcodechef-api.vercel.app%2Fhandle%2Ftanvir_islam&color=5b4638&labelColor=f39c12&style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef Stats"/>
 </a>
+
+</div>
 
 <br/>
 
