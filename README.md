@@ -1,47 +1,51 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Competitive%20Programming%20Journey&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Competitive%20Programming%20Arsenal&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Hi+%F0%9F%91%8B+I'm+Tanvir+Islam;Problem+Solver+%7C+Algorithm+Enthusiast;Competitive+Programmer+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Problem+Solver+%7C+Algorithm+Expert;Competitive+Programmer+%F0%9F%9A%80;Building+Mastery+One+Problem+at+a+Time" alt="Typing SVG" />
 
 <p align="center">
   <a href="https://codeforces.com/profile/tanvir_islam">
-    <img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=0a0a0a&style=for-the-badge&label=Codeforces&query=rating&url=https://competitive-programming-api.herokuapp.com/api/codeforces/tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=86400" alt="Codeforces"/>
+    <img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=0a0a0a&style=for-the-badge&label=Codeforces&query=result[0].rating&url=https://codeforces.com/api/user.info?handles=tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=3600" alt="Codeforces Rating"/>
   </a>
-  <a href="https://github.com/Tanvir-136">
-    <img src="https://img.shields.io/github/followers/Tanvir-136?label=Followers&style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=0a0a0a" alt="GitHub"/>
-  </a>
-  <a href="https://www.linkedin.com/in/tanvir-islam-35aa671b2">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <a href="https://codeforces.com/profile/tanvir_islam">
+    <img src="https://img.shields.io/badge/dynamic/json?labelColor=success&color=0a0a0a&style=for-the-badge&label=Max%20Rating&query=result[0].maxRating&url=https://codeforces.com/api/user.info?handles=tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=3600" alt="Max Rating"/>
   </a>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Tanvir-136&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile views"/>
-  <img src="https://img.shields.io/github/stars/Tanvir-136?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=yellow" alt="Stars"/>
+  <a href="https://github.com/Tanvir-136">
+    <img src="https://img.shields.io/github/followers/Tanvir-136?label=Followers&style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=0a0a0a" alt="GitHub Followers"/>
+  </a>
 </p>
 
 </div>
 
 ---
 
-## 📊 Live Coding Stats
+## 📊 Live Performance Dashboard
 
 <div align="center">
 
-### 🔵 Codeforces Real-Time Stats
+### 🔵 Codeforces Statistics
 <a href="https://codeforces.com/profile/tanvir_islam">
-  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=tanvir_islam&theme=github_dark&force_username=true&border_color=61dafb" alt="Codeforces Stats"/>
+  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=tanvir_islam&theme=github_dark&force_username=true&border_color=61dafb&show_icons=true" alt="Codeforces Stats"/>
 </a>
 
-### 🎯 Problem Solving Activity
+<br/>
+
+<!-- Real-time problem count -->
+<img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=success&style=for-the-badge&label=Problems%20Solved&query=result[0].contribution&url=https://codeforces.com/api/user.info?handles=tanvir_islam&logo=codeforces&logoColor=white&suffix=%2B&cacheSeconds=3600" alt="Problems Solved"/>
+
+### 📈 Rating Progress
 <a href="https://codeforces.com/profile/tanvir_islam">
-  <img src="https://codeforces-readme-stats.vercel.app/api/badge?username=tanvir_islam&theme=github_dark" alt="Codeforces Badge"/>
+  <img src="https://cfrating1.herokuapp.com/rating/graph?username=tanvir_islam&bgcolor=white&color=black&gridlines=true&height=300&width=800" alt="Rating Graph"/>
 </a>
 
-### 📈 Rating Graph
+### 🎯 Problem Categories (Live Data)
 <a href="https://codeforces.com/profile/tanvir_islam">
-  <img src="https://raw.githubusercontent.com/Ashutosh00710/github-readme-activity-graph/main/asset/banner.png" width="100%" alt="Activity Graph"/>
+  <img src="https://cfrating1.herokuapp.com/rating/tags?username=tanvir_islam&theme=light" alt="Problem Tags"/>
 </a>
 
 </div>
@@ -54,38 +58,27 @@
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/color/96/000000/code.png" width="60px"/>
-      <h3>🔵 Codeforces</h3>
+    <td align="center" width="50%">
       <a href="https://codeforces.com/profile/tanvir_islam">
-        <img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=0a0a0a&style=flat-square&label=Rating&query=rating&url=https://competitive-programming-api.herokuapp.com/api/codeforces/tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=86400" alt="Rating"/>
+        <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-color-tal-revivo.png" width="80px"/>
+        <h3>🔵 Codeforces</h3>
       </a>
+      <img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=0a0a0a&style=flat-square&label=Current%20Rating&query=result[0].rating&url=https://codeforces.com/api/user.info?handles=tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=3600" alt="Rating"/>
       <br/>
-      <img src="https://img.shields.io/badge/Problems-500+-success?style=flat-square" alt="Problems"/>
+      <img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=success&style=flat-square&label=Max%20Rating&query=result[0].maxRating&url=https://codeforces.com/api/user.info?handles=tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=3600" alt="Max Rating"/>
       <br/>
-      <img src="https://img.shields.io/badge/Max%20Rating-TBD-orange?style=flat-square" alt="Max Rating"/>
+      <img src="https://img.shields.io/badge/dynamic/json?labelColor=1f8acb&color=orange&style=flat-square&label=Rank&query=result[0].rank&url=https://codeforces.com/api/user.info?handles=tanvir_islam&logo=codeforces&logoColor=white&cacheSeconds=3600" alt="Rank"/>
     </td>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/color/96/000000/code.png" width="60px"/>
-      <h3>🟡 AtCoder</h3>
-      <a href="https://atcoder.jp/users/tanvir_islam">
-        <img src="https://img.shields.io/badge/Rating-TBD-yellow?style=flat-square&logo=atcoder" alt="AtCoder"/>
+    <td align="center" width="50%">
+      <a href="https://github.com/Tanvir-136">
+        <img src="https://img.icons8.com/fluency/96/000000/github.png" width="80px"/>
+        <h3>💻 GitHub</h3>
       </a>
+      <img src="https://img.shields.io/github/stars/Tanvir-136?style=flat-square&logo=github&logoColor=white&labelColor=181717&color=yellow" alt="Stars"/>
       <br/>
-      <img src="https://img.shields.io/badge/Problems-100+-success?style=flat-square" alt="Problems"/>
+      <img src="https://img.shields.io/github/followers/Tanvir-136?style=flat-square&logo=github&logoColor=white&labelColor=181717&color=success" alt="Followers"/>
       <br/>
-      <img src="https://img.shields.io/badge/Max%20Rating-TBD-orange?style=flat-square" alt="Max Rating"/>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/color/96/000000/code.png" width="60px"/>
-      <h3>🟢 CSES</h3>
-      <a href="https://cses.fi/user/123">
-        <img src="https://img.shields.io/badge/Progress-50+-green?style=flat-square" alt="CSES"/>
-      </a>
-      <br/>
-      <img src="https://img.shields.io/badge/Solved-50+-success?style=flat-square" alt="Problems"/>
-      <br/>
-      <img src="https://img.shields.io/badge/Total-300-blue?style=flat-square" alt="Total"/>
+      <img src="https://img.shields.io/badge/Repositories-Public-blue?style=flat-square&logo=github" alt="Repositories"/>
     </td>
   </tr>
 </table>
@@ -99,26 +92,20 @@
 <div align="center">
 
 ```mermaid
-graph TB
-    A[🏠 Competitive Programming] --> B[🔵 Codeforces]
+graph LR
+    A[💼 Competitive Programming] --> B[🔵 Codeforces]
     A --> C[🟢 CSES]
     A --> D[🟡 AtCoder]
     A --> E[🟠 Others]
     
-    B --> B1[⭐ Rating 800]
-    B --> B2[⭐ Rating 900]
-    B --> B3[⭐⭐ Rating 1000]
-    B --> B4[⭐⭐ Rating 1100]
-    B --> B5[⭐⭐⭐ Rating 1200]
-    B --> B6[⭐⭐⭐ Rating 1300]
-    B --> B7[⭐⭐⭐⭐ Rating 1400]
-    B --> B8[⭐⭐⭐⭐ Rating 1500]
-    B --> B9[⭐⭐⭐⭐⭐ Rating 1600]
-    B --> B10[🎮 Interactive]
+    B --> B1[⭐ 800-1000]
+    B --> B2[⭐⭐ 1100-1300]
+    B --> B3[⭐⭐⭐ 1400-1600]
+    B --> B4[🎮 Interactive]
     
     E --> E1[🔶 HackerRank]
     E --> E2[🟣 CodeChef]
-    E --> E3[🎓 IUT Contests]
+    E --> E3[🎓 Contests]
     
     style A fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
     style B fill:#1f8acb,stroke:#1864ab,stroke-width:2px,color:#fff
@@ -130,135 +117,69 @@ graph TB
 </div>
 
 <details open>
-<summary><b>🔵 Codeforces Solutions</b></summary>
+<summary><b>📂 Codeforces Solutions - Organized by Difficulty</b></summary>
 <br>
 
-<div align="center">
-
-| Difficulty | Problems Count | Status | Progress |
-|:----------:|:--------------:|:------:|:--------:|
-| ![800](https://img.shields.io/badge/⭐-800-brightgreen?style=flat-square) | 50+ | ✅ | ![](https://geps.dev/progress/90) |
-| ![900](https://img.shields.io/badge/⭐-900-green?style=flat-square) | 60+ | ✅ | ![](https://geps.dev/progress/85) |
-| ![1000](https://img.shields.io/badge/⭐⭐-1000-yellowgreen?style=flat-square) | 70+ | ✅ | ![](https://geps.dev/progress/80) |
-| ![1100](https://img.shields.io/badge/⭐⭐-1100-yellow?style=flat-square) | 65+ | ✅ | ![](https://geps.dev/progress/75) |
-| ![1200](https://img.shields.io/badge/⭐⭐⭐-1200-orange?style=flat-square) | 80+ | 🔄 | ![](https://geps.dev/progress/70) |
-| ![1300](https://img.shields.io/badge/⭐⭐⭐-1300-red?style=flat-square) | 60+ | 🔄 | ![](https://geps.dev/progress/65) |
-| ![1400](https://img.shields.io/badge/⭐⭐⭐⭐-1400-darkred?style=flat-square) | 45+ | 🔄 | ![](https://geps.dev/progress/55) |
-| ![1500](https://img.shields.io/badge/⭐⭐⭐⭐-1500-purple?style=flat-square) | 30+ | 🔄 | ![](https://geps.dev/progress/45) |
-| ![1600](https://img.shields.io/badge/⭐⭐⭐⭐⭐-1600-blueviolet?style=flat-square) | 20+ | 🔄 | ![](https://geps.dev/progress/35) |
-| ![Interactive](https://img.shields.io/badge/🎮-Interactive-blue?style=flat-square) | 20+ | 🔄 | ![](https://geps.dev/progress/40) |
-
-</div>
+```
+Codeforces/
+├── 📁 Ratting-800/      ⭐ Foundation Building
+├── 📁 Ratting-900/      ⭐ Pattern Recognition
+├── 📁 Ratting-1000/     ⭐⭐ Logic Development
+├── 📁 Ratting-1100/     ⭐⭐ Problem Solving
+├── 📁 Ratting-1200/     ⭐⭐⭐ Algorithmic Thinking
+├── 📁 Ratting-1300/     ⭐⭐⭐ Advanced Concepts
+├── 📁 Ratting-1400/     ⭐⭐⭐⭐ Expert Level
+├── 📁 Ratting-1500/     ⭐⭐⭐⭐ Complex Problems
+├── 📁 Ratting-1600/     ⭐⭐⭐⭐⭐ Master Tier
+└── 📁 Interactive/      🎮 Interactive Problems
+```
 
 </details>
 
 <details>
-<summary><b>🟢 CSES Problem Set</b></summary>
+<summary><b>📂 CSES Problem Set</b></summary>
 <br>
 
-<div align="center">
-
-| Category | Count | Completion |
-|:---------|:-----:|:----------:|
-| Introductory Problems | 19/19 | ![](https://geps.dev/progress/100) |
-| Sorting and Searching | 15/35 | ![](https://geps.dev/progress/43) |
-| Dynamic Programming | 10/19 | ![](https://geps.dev/progress/53) |
-| Graph Algorithms | 8/36 | ![](https://geps.dev/progress/22) |
-| Range Queries | 5/19 | ![](https://geps.dev/progress/26) |
-| Tree Algorithms | 3/16 | ![](https://geps.dev/progress/19) |
-
-</div>
+```
+CSES/
+└── 📄 Solutions to CSES problems organized by category
+```
 
 </details>
 
 <details>
-<summary><b>🟡 AtCoder Solutions</b></summary>
+<summary><b>📂 AtCoder Solutions</b></summary>
 <br>
 
-<div align="center">
-
-| Problem Tier | Solved | Total |
-|:------------:|:------:|:-----:|
-| 📗 A Problems | 100+ | - |
-| 📘 B Problems | 80+ | - |
-| 📙 C Problems | 50+ | - |
-| 📕 D Problems | 20+ | - |
-
-</div>
+```
+Atcoder/
+├── 📄 A_*.cpp    (Beginner friendly)
+├── 📄 B_*.cpp    (Intermediate)
+├── 📄 C_*.cpp    (Advanced)
+└── 📄 D_*.cpp    (Expert)
+```
 
 </details>
 
 ---
 
-## 🎯 Algorithm Mastery Progress
-
-<div align="center">
-
-```mermaid
-pie title Problem Categories Distribution
-    "Mathematics" : 150
-    "Data Structures" : 120
-    "Dynamic Programming" : 80
-    "Graph Theory" : 90
-    "Greedy" : 110
-    "Combinatorics" : 50
-```
-
-<table>
-<tr>
-<td width="50%">
-
-### 📊 Data Structures
-```
-Arrays & Strings       ████████████ 95%
-Stack & Queue          ███████████░ 90%
-Linked Lists           ██████████░░ 85%
-Trees                  █████████░░░ 75%
-Heaps                  ████████░░░░ 70%
-Hash Tables            ███████████░ 90%
-Segment Trees          ██████░░░░░░ 50%
-Fenwick Trees          █████░░░░░░░ 45%
-```
-
-</td>
-<td width="50%">
-
-### 🧮 Algorithms
-```
-Sorting & Searching    ████████████ 95%
-Greedy                 ███████████░ 88%
-Two Pointers           ██████████░░ 82%
-Sliding Window         █████████░░░ 76%
-Dynamic Programming    ████████░░░░ 65%
-Graph Algorithms       ███████░░░░░ 60%
-Number Theory          ██████░░░░░░ 55%
-String Algorithms      █████░░░░░░░ 48%
-```
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 💻 Competitive Programming Template
+## 💻 Expert Template
 
 <details>
-<summary><b>⚡ Click to view my CP template</b></summary>
+<summary><b>⚡ Production-Ready Competitive Programming Template</b></summary>
 
 ```cpp
-// 🚀 Optimized Competitive Programming Template
-// Author: Tanvir Islam
-// Last Updated: 2024
+// 🚀 High-Performance CP Template
+// Optimized for Speed & Efficiency
 
 #include <bits/stdc++.h>
 using namespace std;
 
-// ==================== MACROS ====================
+// ==================== FAST I/O ====================
 #define FAST_IO ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
 #define endl '\n'
+
+// ==================== TYPE DEFINITIONS ====================
 #define ll long long
 #define ull unsigned long long
 #define ld long double
@@ -266,6 +187,8 @@ using namespace std;
 #define vll vector<ll>
 #define pii pair<int,int>
 #define pll pair<ll,ll>
+
+// ==================== CONTAINER OPERATIONS ====================
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 #define pb push_back
@@ -277,16 +200,11 @@ using namespace std;
 const int MOD = 1e9 + 7;
 const int INF = 1e9;
 const ll LINF = 1e18;
-const double PI = acos(-1.0);
 const double EPS = 1e-9;
 
 // ==================== UTILITIES ====================
-#define dbg(x) cout << #x << " = " << x << endl
-#define yes cout << "YES" << endl
-#define no cout << "NO" << endl
 #define rep(i, a, b) for(int i = (a); i < (b); i++)
 #define per(i, a, b) for(int i = (a); i >= (b); i--)
-#define trav(a, x) for(auto& a : x)
 
 // ==================== MATH UTILITIES ====================
 ll gcd(ll a, ll b) { return b ? gcd(b, a % b) : a; }
@@ -301,35 +219,19 @@ ll power(ll a, ll b, ll mod = MOD) {
     return res;
 }
 
-// ==================== TEMPLATE FUNCTIONS ====================
-template<typename T>
-void print(vector<T>& v) {
-    for(auto& x : v) cout << x << " ";
-    cout << endl;
-}
-
-template<typename T>
-void read(vector<T>& v) {
-    for(auto& x : v) cin >> x;
-}
-
 // ==================== SOLUTION ====================
 void solve() {
-    // Your solution here
-    
+    // Implementation
 }
 
 // ==================== MAIN ====================
 int main() {
     FAST_IO;
-    
     int t = 1;
     cin >> t;
-    
     while(t--) {
         solve();
     }
-    
     return 0;
 }
 ```
@@ -338,194 +240,65 @@ int main() {
 
 ---
 
-## 📚 Learning Resources & Tools
+## 📚 Resources
 
 <div align="center">
 
-<table>
-<tr>
-<td width="33%" align="center">
+### 📖 Learning & References
 
-### 📖 Theory & Books
-[![CP-Algorithms](https://img.shields.io/badge/CP--Algorithms-Guide-blue?style=for-the-badge&logo=bookstack)](https://cp-algorithms.com/)
-[![CSES Book](https://img.shields.io/badge/CSES-Handbook-green?style=for-the-badge&logo=book)](https://cses.fi/book/book.pdf)
-[![CLRS](https://img.shields.io/badge/CLRS-Algorithms-red?style=for-the-badge&logo=academia)](https://mitpress.mit.edu/books/introduction-algorithms)
+[![CP-Algorithms](https://img.shields.io/badge/CP--Algorithms-Comprehensive%20Guide-blue?style=for-the-badge&logo=bookstack&logoColor=white)](https://cp-algorithms.com/)
+[![CSES](https://img.shields.io/badge/CSES-Problem%20Set-green?style=for-the-badge&logo=book&logoColor=white)](https://cses.fi/problemset/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-Practice-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/)
 
-</td>
-<td width="33%" align="center">
-
-### 🎥 Video Tutorials
-[![Errichto](https://img.shields.io/badge/Errichto-YouTube-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/c/Errichto)
-[![William Fiset](https://img.shields.io/badge/William_Fiset-YouTube-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/c/WilliamFiset-videos)
-[![tmwilliamlin168](https://img.shields.io/badge/tmwilliamlin168-YouTube-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/c/tmwilliamlin168)
-
-</td>
-<td width="33%" align="center">
-
-### 🔧 Practice Platforms
-[![Codeforces](https://img.shields.io/badge/Codeforces-Practice-1F8ACB?style=for-the-badge&logo=codeforces)](https://codeforces.com/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Practice-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/)
-[![AtCoder](https://img.shields.io/badge/AtCoder-Practice-000000?style=for-the-badge)](https://atcoder.jp/)
-
-</td>
-</tr>
-</table>
-
-</div>
-
-### 🧰 Essential Tools
-
-<div align="center">
+### 🔧 Tools
 
 | Tool | Purpose | Link |
 |:-----|:--------|:----:|
-| 🎨 VisuAlgo | Algorithm Visualization | [![Visit](https://img.shields.io/badge/Visit-VisuAlgo-blue?style=flat-square)](https://visualgo.net/) |
-| 🔍 CP Editor | Competitive Programming IDE | [![Visit](https://img.shields.io/badge/Visit-CP_Editor-green?style=flat-square)](https://cpeditor.org/) |
-| 📊 CF Analytics | Codeforces Analytics | [![Visit](https://img.shields.io/badge/Visit-CF_Analytics-orange?style=flat-square)](https://cfviz.netlify.app/) |
-| 🧮 OEIS | Integer Sequences | [![Visit](https://img.shields.io/badge/Visit-OEIS-red?style=flat-square)](https://oeis.org/) |
-| 📝 Ideone | Online Compiler | [![Visit](https://img.shields.io/badge/Visit-Ideone-purple?style=flat-square)](https://ideone.com/) |
+| VisuAlgo | Algorithm Visualization | [![Visit](https://img.shields.io/badge/Visit-blue?style=flat-square)](https://visualgo.net/) |
+| CF Analytics | Performance Analysis | [![Visit](https://img.shields.io/badge/Visit-orange?style=flat-square)](https://cfviz.netlify.app/) |
+| CP Editor | Coding Environment | [![Visit](https://img.shields.io/badge/Visit-green?style=flat-square)](https://cpeditor.org/) |
 
 </div>
 
 ---
 
-## 🏆 Achievements & Milestones
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### ✅ Completed
-```
-✓ 500+ Problems on Codeforces
-✓ 50+ CSES Problems Solved
-✓ 100+ Contests Participated
-✓ 100+ AtCoder Problems
-✓ Daily Solving Streak (30+ days)
-✓ Contributed to CP Community
-```
-
-</td>
-<td width="50%">
-
-### 🎯 Current Goals
-```
-→ Reach Expert on Codeforces
-→ Solve 1000+ Total Problems
-→ Complete CSES Problem Set
-→ Master Dynamic Programming
-→ Learn Advanced Graph Theory
-→ Participate in top 100
-```
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 📈 GitHub Activity
+## 📈 GitHub Analytics
 
 <div align="center">
 
 <a href="https://github.com/Tanvir-136">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Tanvir-136&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F75C7E&icon_color=61dafb&text_color=c9d1d9" alt="GitHub Stats"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Tanvir-136&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F75C7E&icon_color=61dafb&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
 </a>
 <a href="https://github.com/Tanvir-136">
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Tanvir-136&theme=tokyonight&hide_border=true&background=0D1117&stroke=61dafb&ring=F75C7E&fire=F75C7E&currStreakLabel=F75C7E" alt="GitHub Streak"/>
 </a>
 
 <a href="https://github.com/Tanvir-136">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanvir-136&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F75C7E&text_color=c9d1d9" alt="Top Languages"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tanvir-136&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F75C7E&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
 </a>
 <a href="https://github.com/Tanvir-136">
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=Tanvir-136&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=61dafb&line=F75C7E&point=61dafb" alt="Activity Graph"/>
+  <img width="49%" src="https://github-profile-trophy.vercel.app/?username=Tanvir-136&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=4" alt="Trophies"/>
 </a>
 
 </div>
 
 ---
 
-## 🤝 Contributing
+## 🌐 Connect
 
 <div align="center">
-
-I welcome contributions! Here's how you can help:
-
-[![Issues](https://img.shields.io/github/issues/Tanvir-136/Competitive-Programming?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=yellow)](https://github.com/Tanvir-136/Competitive-Programming/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/Tanvir-136/Competitive-Programming?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=green)](https://github.com/Tanvir-136/Competitive-Programming/pulls)
-[![Forks](https://img.shields.io/github/forks/Tanvir-136/Competitive-Programming?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=blue)](https://github.com/Tanvir-136/Competitive-Programming/network/members)
-
-</div>
-
-```
-📝 Report bugs or issues
-💡 Suggest new features or improvements
-🔀 Submit pull requests
-⭐ Star this repository
-🍴 Fork and create your own solutions
-```
-
----
-
-## 💖 Support & Connect
-
-<div align="center">
-
-<h3>If you find this repository helpful, please consider:</h3>
-
-<a href="https://github.com/Tanvir-136/Competitive-Programming">
-  <img src="https://img.shields.io/badge/⭐_Star_This_Repo-FFD700?style=for-the-badge&logo=github&logoColor=black" alt="Star"/>
-</a>
-<a href="https://github.com/Tanvir-136">
-  <img src="https://img.shields.io/badge/👤_Follow_Me-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow"/>
-</a>
-<a href="https://www.linkedin.com/in/tanvir-islam-35aa671b2">
-  <img src="https://img.shields.io/badge/💼_Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-
-<br><br>
-
-### 🌐 Find me on:
 
 [![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/tanvir_islam)
 [![AtCoder](https://img.shields.io/badge/AtCoder-000000?style=for-the-badge&logo=atcoder&logoColor=white)](https://atcoder.jp/users/tanvir_islam)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tanvir-136)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanvir-islam-35aa671b2)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@gmail.com)
 
-</div>
-
----
-
-<div align="center">
-
-### 💭 Quote of the Day
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Quote"/>
-
-<br><br>
-
-### 🎮 When I'm not coding...
-
-<img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Jokes Card" />
-
-<br><br>
-
-### 🏅 GitHub Trophies
-
-<img src="https://github-profile-trophy.vercel.app/?username=Tanvir-136&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="Trophies"/>
-
-<br><br>
+<br/><br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
 
-**✨ Happy Coding! Keep Solving, Keep Learning! ✨**
+**💡 "Code is like humor. When you have to explain it, it's bad." - Cory House**
 
-<sub>🔄 Last Updated: February 2024 | 🤖 Auto-updated with GitHub Actions</sub>
+<sub>🔄 Stats auto-update every 6 hours via GitHub Actions</sub>
 
 </div>
