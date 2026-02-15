@@ -12,34 +12,26 @@ const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
 void solve(){
-    int n, m , x;
-    cin >> n >> m >> x;
-    vector<int> a(n), b(m);
-    for(auto &it : a){
-        cin >> it;
+    int n, t;
+    cin >> n >> t;
+    vector<int> a(n);
+    for (int i = 0; i < n; ++i) {
+        cin >> a[i];
     }
-    for(auto &it : b){
-        cin >> it;
-    }
-    sort(all(a));
-    sort(all(b));
-    int i = 0, j = 0, cnt = 0;
-    while(i < n && j < m){
-        if((a[i] - x) > b[j]){
-            ++j;
-        }else if((a[i] + x) < b[j]){
-            ++i;
-        }else{
-            ++cnt;
-            ++i, ++j;
+    int l = 0, ans = 0;
+    ll sum = 0;
+    for (int i = 0; i < n; ++i) {
+        sum += a[i];
+        while (sum > t) {
+            sum -= a[l];
+            ++l;
         }
+        ans = max(ans, i - l + 1);
     }
-    cout << cnt << nl;
+    cout << ans << nl;
 }
-
 int main(){
     FAST_IO;
-    //Start Here
     int t=1;
     //cin >> t;
     while (t--){

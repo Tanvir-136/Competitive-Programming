@@ -9,39 +9,36 @@
 #define nl '\n'
 /*---------------------------------------------------------------*/
 const int N = 1e5 + 10;
+int dx[] = {1, -1, -1, 1};
+int dy[] = {1, 1, -1, -1};
 using namespace std;
 /*---------------------------------------------------------------*/
 void solve(){
-    int n, m , x;
-    cin >> n >> m >> x;
-    vector<int> a(n), b(m);
-    for(auto &it : a){
-        cin >> it;
+    ll a , b;
+    cin >> a >> b;
+    ll x_k, y_k, x_q, y_q;
+    cin >> x_k >> y_k >> x_q >> y_q;
+    set<pair<ll, ll>> king, queen;
+    for(int i = 0; i < 4; ++i){
+        king.insert({x_k + dx[i] * a, y_k + dy[i] * b});
+        king.insert({x_k + dx[i] * b, y_k + dy[i] * a});
+
+        queen.insert({x_q + dx[i] * a, y_q + dy[i] * b});
+        queen.insert({x_q + dx[i] * b, y_q + dy[i] * a});
     }
-    for(auto &it : b){
-        cin >> it;
-    }
-    sort(all(a));
-    sort(all(b));
-    int i = 0, j = 0, cnt = 0;
-    while(i < n && j < m){
-        if((a[i] - x) > b[j]){
-            ++j;
-        }else if((a[i] + x) < b[j]){
-            ++i;
-        }else{
-            ++cnt;
-            ++i, ++j;
+    ll ans = 0;
+    for(auto &it : king){
+        if(queen.find(it) != queen.end()){
+            ++ans;
         }
     }
-    cout << cnt << nl;
+    cout << ans << nl;
 }
-
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    //cin >> t;
+    cin >> t;
     while (t--){
         solve();
     }

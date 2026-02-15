@@ -11,37 +11,32 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-void solve(){
-    int n, m , x;
-    cin >> n >> m >> x;
-    vector<int> a(n), b(m);
-    for(auto &it : a){
-        cin >> it;
-    }
-    for(auto &it : b){
-        cin >> it;
+void solve() {
+    ll n, k;
+    cin >> n >> k;
+    vector<pair<ll, pair<ll, ll>>> a;
+    for(int i = 0; i < n; ++i){
+        ll l, r, real;
+        cin >> l >> r >> real;
+        a.push_back({l, {r, real}});
     }
     sort(all(a));
-    sort(all(b));
-    int i = 0, j = 0, cnt = 0;
-    while(i < n && j < m){
-        if((a[i] - x) > b[j]){
-            ++j;
-        }else if((a[i] + x) < b[j]){
-            ++i;
-        }else{
-            ++cnt;
-            ++i, ++j;
+    ll ans = k;
+    for(int i = 0; i < n; ++i){
+        ll l = a[i].first;
+        ll r = a[i].second.first;
+        ll real = a[i].second.second;
+        if(ans >= l && ans <= r){
+            ans = max(ans, real);
         }
     }
-    cout << cnt << nl;
+    cout << ans << nl;
 }
-
 int main(){
     FAST_IO;
     //Start Here
-    int t=1;
-    //cin >> t;
+    int t = 1;
+    cin >> t;
     while (t--){
         solve();
     }

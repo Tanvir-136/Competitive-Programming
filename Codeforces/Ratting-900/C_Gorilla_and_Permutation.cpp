@@ -5,24 +5,21 @@
 #define yes cout<<"YES"<<'\n';
 #define no cout<<"NO"<<'\n';
 #define ll long long
-#define MOD 1e9 + 7
+#define MOD 1000000007
 #define nl '\n'
-/*---------------------------------------------------------------*/
-const int N = 1e5 + 10;
 using namespace std;
-/*---------------------------------------------------------------*/
-void solve(){
-    int n, k;
-    cin >> n >> k;
-    for(int i = 0; i < n - k; ++i){
-        cout << 0;
+//---------------------------------------------------------------//
+void solve() {
+    int n, m, k;
+    cin >> n >> m >> k;
+    for(int i = n; i > m; --i){
+        cout << i << ' ';
     }
-    for(int i = 0; i < k; ++i){
-        cout << 1;
+    for(int i = 1; i <= m; ++i){
+        cout << i << ' ';
     }
     cout << nl;
 }
-
 int main(){
     FAST_IO;
     //Start Here

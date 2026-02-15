@@ -11,37 +11,40 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-void solve(){
-    int n, m , x;
-    cin >> n >> m >> x;
-    vector<int> a(n), b(m);
-    for(auto &it : a){
+void solve() {
+    int n;
+    cin >> n;
+    vector<ll> p(n), s(n);
+    for (ll &it : p){
         cin >> it;
-    }
-    for(auto &it : b){
+    } 
+    for (ll &it : s){
         cin >> it;
+    } 
+    vector<ll> a(n);
+    for (int i = 0; i < n; ++i) {
+        a[i] = lcm(p[i], s[i]);
     }
-    sort(all(a));
-    sort(all(b));
-    int i = 0, j = 0, cnt = 0;
-    while(i < n && j < m){
-        if((a[i] - x) > b[j]){
-            ++j;
-        }else if((a[i] + x) < b[j]){
-            ++i;
-        }else{
-            ++cnt;
-            ++i, ++j;
-        }
+    vector<ll> pr(n), su(n);
+    pr[0] = a[0];
+    for (int i = 1; i < n; ++i) {
+        pr[i] = __gcd(pr[i - 1], a[i]);
     }
-    cout << cnt << nl;
+    su[n - 1] = a[n - 1];
+    for (int i = n - 2; i >= 0; --i) {
+        su[i] = __gcd(a[i], su[i + 1]);
+    }
+    if (pr == p && su == s){
+        yes;
+    }else {
+        no;
+    }             
 }
-
 int main(){
     FAST_IO;
     //Start Here
-    int t=1;
-    //cin >> t;
+    int t = 1;
+    cin >> t;
     while (t--){
         solve();
     }

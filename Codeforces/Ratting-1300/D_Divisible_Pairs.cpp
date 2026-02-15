@@ -5,28 +5,34 @@
 #define yes cout<<"YES"<<'\n';
 #define no cout<<"NO"<<'\n';
 #define ll long long
-#define MOD 1e9 + 7
+#define MOD 1000000007
 #define nl '\n'
 /*---------------------------------------------------------------*/
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
 void solve(){
-    int n, k;
-    cin >> n >> k;
-    for(int i = 0; i < n - k; ++i){
-        cout << 0;
+    int n, x, y;
+    cin >> n >> x >> y;
+    vector<int> a(n);
+    for (auto &it : a){
+        cin >> it;
     }
-    for(int i = 0; i < k; ++i){
-        cout << 1;
+    ll ans = 0;
+    map<pair<int, int>, int> mp;
+    for(int i = 0; i < n; ++i){
+        int rx = a[i] % x;
+        int ry = a[i] % y;
+        int need_rx = (x - rx) % x;
+        ans += mp[{need_rx, ry}];
+        mp[{rx, ry}]++;
     }
-    cout << nl;
+    cout << ans << nl;
 }
-
 int main(){
     FAST_IO;
     //Start Here
-    int t=1;
+    int t = 1;
     cin >> t;
     while (t--){
         solve();

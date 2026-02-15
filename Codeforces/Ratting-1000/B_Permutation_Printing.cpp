@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#define FAST_IO ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
+#define FAST_IO ios_base::sync_with_stdio(0);cin.tie(0);
 #define dbg(x) cout<<#x<<" = "<<x<<'\n';
 #define all(x) (x).begin(), (x).end()
 #define yes cout<<"YES"<<'\n';
@@ -11,37 +11,25 @@
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
+  
 void solve(){
-    int n, m , x;
-    cin >> n >> m >> x;
-    vector<int> a(n), b(m);
-    for(auto &it : a){
-        cin >> it;
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    // iota(all(a), 1);
+    // cout << n << ' ';
+    for(int i = 1; i <= n / 2; ++i){
+        cout << i << ' ' << n - i + 1 << ' ';
     }
-    for(auto &it : b){
-        cin >> it;
-    }
-    sort(all(a));
-    sort(all(b));
-    int i = 0, j = 0, cnt = 0;
-    while(i < n && j < m){
-        if((a[i] - x) > b[j]){
-            ++j;
-        }else if((a[i] + x) < b[j]){
-            ++i;
-        }else{
-            ++cnt;
-            ++i, ++j;
-        }
-    }
-    cout << cnt << nl;
+    if(n % 2 == 1) cout << n / 2 + 1;
+    cout << nl;
 }
 
 int main(){
     FAST_IO;
     //Start Here
     int t=1;
-    //cin >> t;
+    cin >> t;
     while (t--){
         solve();
     }

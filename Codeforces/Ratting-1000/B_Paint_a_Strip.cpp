@@ -5,43 +5,42 @@
 #define yes cout<<"YES"<<'\n';
 #define no cout<<"NO"<<'\n';
 #define ll long long
-#define MOD 1e9 + 7
+#define MOD 1000000007
 #define nl '\n'
 /*---------------------------------------------------------------*/
 const int N = 1e5 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
 void solve(){
-    int n, m , x;
-    cin >> n >> m >> x;
-    vector<int> a(n), b(m);
-    for(auto &it : a){
-        cin >> it;
+    int n;
+    cin >> n;
+    if(n == 1){
+        cout << 1 << nl;
+        return;
     }
-    for(auto &it : b){
-        cin >> it;
+    if(n <= 4){
+        cout << 2 << nl;
+        return;
     }
-    sort(all(a));
-    sort(all(b));
-    int i = 0, j = 0, cnt = 0;
-    while(i < n && j < m){
-        if((a[i] - x) > b[j]){
-            ++j;
-        }else if((a[i] + x) < b[j]){
-            ++i;
-        }else{
-            ++cnt;
-            ++i, ++j;
+    ll ans = 2, l = 1, sum = 4;
+    for(int i = 1; i <= n; ){
+        ll r = sum * 2 + 2; 
+        dbg(r)
+        i = r;               
+        l = sum + 1;
+        sum = r;            
+        ++ans;
+        if (sum >= n){
+            break;
         }
+           
     }
-    cout << cnt << nl;
+    cout << ans << nl;
 }
-
 int main(){
     FAST_IO;
-    //Start Here
-    int t=1;
-    //cin >> t;
+    int t = 1;
+    cin >> t;
     while (t--){
         solve();
     }

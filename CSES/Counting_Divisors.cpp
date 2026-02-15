@@ -8,40 +8,30 @@
 #define MOD 1e9 + 7
 #define nl '\n'
 /*---------------------------------------------------------------*/
-const int N = 1e5 + 10;
+const int N = 1e6 + 10;
 using namespace std;
 /*---------------------------------------------------------------*/
-void solve(){
-    int n, m , x;
-    cin >> n >> m >> x;
-    vector<int> a(n), b(m);
-    for(auto &it : a){
-        cin >> it;
-    }
-    for(auto &it : b){
-        cin >> it;
-    }
-    sort(all(a));
-    sort(all(b));
-    int i = 0, j = 0, cnt = 0;
-    while(i < n && j < m){
-        if((a[i] - x) > b[j]){
-            ++j;
-        }else if((a[i] + x) < b[j]){
-            ++i;
-        }else{
-            ++cnt;
-            ++i, ++j;
+vector<int> divisors(N, 0);
+
+void precompute(){
+    for(int i = 1; i < N; ++i){
+        for(int j = i; j < N; j += i){
+            ++divisors[j];
         }
     }
-    cout << cnt << nl;
+}
+void solve(){
+    int x;
+    cin >> x;
+    cout << divisors[x] << nl;
 }
 
 int main(){
     FAST_IO;
     //Start Here
+    precompute();
     int t=1;
-    //cin >> t;
+    cin >> t;
     while (t--){
         solve();
     }
